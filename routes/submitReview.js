@@ -20,6 +20,8 @@ router.post('/', async (req, res) => {
             else{
             await new Review({
                 username: req.body.username,
+                academicYear: req.body.academicYear,
+                semester:req.body.semester,
                 review: req.body.review
             }).save()
                 console.log(" review Created");

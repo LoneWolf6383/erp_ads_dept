@@ -8,14 +8,17 @@ const StarRating = (props) => {
   const [rate, setRate] = useState(0)
   async function handleSubmit(ratings){
     try {
+        const pathname  = window.location.href.split("?")[1]
         const val = {
           username: window.sessionStorage.getItem('username'),
           coursename:props.label.split('+')[0],
-          question:props.label.split('+')[1],  
+          question: props.label.split('+')[1],  
+          academicYear: pathname.split('+')[0] ,
+          semester:pathname.split('+')[1],
           review:ratings
-      }
-      await axios.post('/feedback/review', val)
-      setDone(true)
+        }
+        await axios.post('/feedback/review', val)
+        setDone(true)
       } catch (error) {
         console.log(error);
       }

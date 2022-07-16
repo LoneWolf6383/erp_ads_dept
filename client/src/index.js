@@ -8,6 +8,7 @@ import ThemeContextWrapper from './Themes/themeContextWrapper';
 import { LogInPage } from './pages/logInPage'
 import {FacultyDashboard} from './pages/facultyDashboard'
 import { StudentDashboard } from './pages/studentDashboard';
+import { DisplayResults } from './components/displayResults';
 ReactDOM.render(
   <ThemeContextWrapper>
     <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
           <Route path='/studentDashboard' element={<StudentDashboard />} />  
           <Route path='/studentDashboard/feedback' element={ <FeedBackForm/> } />
           <Route path='/facultyDashboard' element={<FacultyDashboard/>}/>
+          <Route path='/facultyDashboard/results' element={<DisplayResults/>}/>
         </Routes>
       </BrowserRouter>
     </React.StrictMode>
