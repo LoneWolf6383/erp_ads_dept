@@ -3,39 +3,30 @@ import axios from 'axios'
 import { Table, Column } from 'sticky-react-table';
 
 export const DisplayResults = () => {
-    const [content, setContent] = useState(
-        [
-            {
-              "name": "John Doe",
-              "age": 24,
-              "location": "Chicago",
-              "occupation": "Research Analyst"
-            },
-            {
-              "name": "Jane Delaney",
-              "age": 22,
-              "location": "London",
-              "occupation": "Software Developer"
-            },
-            {
-              "name": "Nishant Singh",
-              "age": 28,
-              "location": "Mumbai",
-              "occupation": "Business Developer"
-            }
-          ]
-    )
+    const [content, setContent] = useState([])
 
     useEffect(() => {
         const getContent = async () => { 
           const pathname  = window.location.href.split("?")[1]
           const data = {
-            academicYear: pathname.split('+')[0] ,
+            academicYear: pathname.split('+')[0],
             semester:pathname.split('+')[1]
           }
             const { data: res } = await axios.post('/getResults', data)
             setContent(res) 
         }   
+        const review = {}
+        content.forEach(user => {
+          Object.entries(user.review).map(course => {
+            Object.entries(course[1]).map(co => {
+              if (review[co[0]])
+                review[co[0]].push(co[1])
+              else
+                review[co[0]] = [co[1]]
+            })
+          })
+        });
+        console.log(review)
         getContent()
       }, [content])
     
