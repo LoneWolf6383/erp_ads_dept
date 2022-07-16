@@ -11,9 +11,11 @@ router.post('/', async (req, res) => {
                 review:allReviews[key].review[0]
             })
         }
+
         return res.send(results)
     } catch (error) {
-        
+        console.log(error);
+        return res.send(error)
     }
 })
 
