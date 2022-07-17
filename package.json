@@ -21,10 +21,9 @@
     "joi": "^17.6.0",
     "joi-password-complexity": "^5.1.0",
     "json-web-token": "^3.2.0",
-    "mongoose": "^6.3.3",
+    "mongoose": "^6.3.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.16",
-    "sass": "^1.53.0"
+    "nodemon": "^2.0.16"
   }
 }
