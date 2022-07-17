@@ -6,6 +6,7 @@ import  'react-bootstrap'
 // import { GenerateCOFeedback } from './components/generateCOFeedback'
 // import {DynDropDown} from './components/DynTabs/dynDropDown'
 import {LogInPage} from './pages/logInPage'
+// import { FeedbackGenerator } from './components/feedbackGenerator';
 // import {StudentDashboard} from './pages/studentDashboard'
 // import { FacultyDashboard } from './pages/facultyDashboard';
 // import {DynTabs} from './components/dynTabscopy'
@@ -14,6 +15,7 @@ function App() {
   return (
     <>
       <LogInPage/>
+      {/* <FeedbackGenerator/> */}
       {/* <StudentDashboard/>  */}
     </>
 

@@ -36,7 +36,6 @@ export const DynTabs = () => {
     var panels_array = []
     for (const key in content) {
       isReviewed(content[key][0])
-      console.log(content.length)
       tabs_array.push({
         value: `${key}`,
         label: content[key][0], 

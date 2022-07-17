@@ -12,6 +12,7 @@ const getRatings = require('./utilities/getRatings')
 const isReviewed = require('./utilities/isReviewed')
 const initiateReviews = require('./utilities/initiateReviews')
 const getResults = require('./utilities/getResults')
+const feedbackGenerator = require('./utilities/feedbackGenerator')
 const path = require('path');
 var bodyParser = require('body-parser');
 
@@ -31,6 +32,7 @@ app.use('/getRatings',getRatings)
 app.use('/isReviewed',isReviewed)
 app.use('/initiateReviews',initiateReviews)
 app.use('/getResults', getResults)
+app.use('/feedbackGenerator', feedbackGenerator)
 
 if(process.env.NODE_ENV === 'production'){
     app.use(express.static('/build'))
