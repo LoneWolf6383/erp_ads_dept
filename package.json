@@ -22,7 +22,6 @@
     "joi-password-complexity": "^5.1.0",
     "json-web-token": "^3.2.0",
     "mongoose": "^6.3.3",
-    "sticky-react-table": "^0.4.26"
   },
   "devDependencies": {
     "nodemon": "^2.0.16",

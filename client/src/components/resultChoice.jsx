@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
 import {Button} from 'react-bootstrap'
 import { DynDropDown } from './dynDropDown'
-import 'sticky-react-table/lib/themes/dark.scss'
 export const ResultChoice = () => {
     const [academicYear, setAcademicYear] = useState('')
     const [semester, setSemester] = useState('')
