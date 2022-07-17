@@ -19,7 +19,10 @@ import Tooltip from '@mui/material/Tooltip';
 import DeleteIcon from '@mui/icons-material/Delete';
 import FilterListIcon from '@mui/icons-material/FilterList';
 import { visuallyHidden } from '@mui/utils';
-import {BarChart} from './GraphPlot/barChart.tsx'
+import { BarChart } from './GraphPlot/barChart.tsx'
+import MuiDenseTable from './muiDenseTable'
+
+
 function createData(co,ratings) {
   return {
       co,
@@ -207,13 +210,13 @@ export default function EnhancedTable( props ) {
     )
     const percentage = {}
     Object.entries(review).map(ratings =>{
-      let sum = 0
+      let count = 0
       ratings[1].forEach(val => {
         if (val >= 3) {
-          sum+=val
+          count+=1
         }
       })
-      percentage[ratings[0]] = (sum/props.len)*10
+      percentage[ratings[0]] = (count*25)/props.len
       return percentage
     })
   
@@ -264,94 +267,97 @@ export default function EnhancedTable( props ) {
     const isSelected = (co) => selected.indexOf(co) !== -1;
 
     // Avoid a layout jump when reaching the last page with empty rows.
-    const emptyRows =
-        page > 0 ? Math.max(0, (1 + page) * rowsPerPage - rows.length) : 0;
+    const emptyRows = page > 0 ? Math.max(0, (1 + page) * rowsPerPage - rows.length) : 0;
 
   return (
-        <Box sx={{ width: '100%' }}>
-        <Paper sx={{ width: '100%', mb: 2 }}>
-            <EnhancedTableToolbar title={props.data[0]} numSelected={selected.length} />
-            <TableContainer>
-            <Table
-                sx={{ minWidth: 750 }}
-                aria-labelledby="tableTitle"
-            >
-                <EnhancedTableHead
-                numSelected={selected.length}
-                order={order}
-                orderBy={orderBy}
-                onSelectAllClick={handleSelectAllClick}
-                onRequestSort={handleRequestSort}
-                rowCount={rows.length}
-                len = {props.len}
-                />
-                <TableBody>
-                {/* if you don't need to support IE11, you can replace the `stableSort` call with:
-                    rows.slice().sort(getComparator(order, orderBy)) */}
-                {stableSort(rows, getComparator(order, orderBy))
-                    .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-                    .map((row, index) => {
-                    const isItemSelected = isSelected(row.co);
-                    const labelId = `enhanced-table-checkbox-${index}`;
+    <div>
+      <Box sx={{ width: '100%' }}>
+      <Paper sx={{ width: '100%', mb: 2 }}>
+        <EnhancedTableToolbar title={props.data[0]} numSelected={selected.length} />
+        <TableContainer>
+          <Table
+            sx={{ minWidth: 750 }}
+            aria-labelledby="tableTitle"
+          >
+            <EnhancedTableHead
+              numSelected={selected.length}
+              order={order}
+              orderBy={orderBy}
+              onSelectAllClick={handleSelectAllClick}
+              onRequestSort={handleRequestSort}
+              rowCount={rows.length}
+              len={props.len} />
+            <TableBody>
+              {/* if you don't need to support IE11, you can replace the `stableSort` call with:
+        rows.slice().sort(getComparator(order, orderBy)) */}
+              {stableSort(rows, getComparator(order, orderBy))
+                .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
+                .map((row, index) => {
+                  const isItemSelected = isSelected(row.co);
+                  const labelId = `enhanced-table-checkbox-${index}`;
 
-                    return (
-                        <TableRow
-                        hover
-                        onClick={(event) => handleClick(event, row.co)}
-                        role="checkbox"
-                        aria-checked={isItemSelected}
-                        tabIndex={-1}
-                        key={row.co}
-                        selected={isItemSelected}
-                        >
-                        <TableCell padding="checkbox">
-                            <Checkbox
-                            color="primary"
-                            checked={isItemSelected}
-                            inputProps={{
-                                'aria-labelledby': labelId,
-                            }}
-                            />
-                        </TableCell>
-                        <TableCell
-                            component="th"
-                            id={labelId}
-                            scope="row"
-                            padding="none"
-                        >
-                            {row.co}
-                        </TableCell>
-                            {
-                                Object.keys(row).map(e => {
-                                    return e!=='co'?<TableCell align="right">{row[e]}</TableCell>:null
-                                })
-                            }
-                        </TableRow>
-                    );
-                    })}
-                {emptyRows > 0 && (
+                  return (
                     <TableRow
-                    style={{
-                        height: (53) * emptyRows,
-                    }}
+                      hover
+                      onClick={(event) => handleClick(event, row.co)}
+                      role="checkbox"
+                      aria-checked={isItemSelected}
+                      tabIndex={-1}
+                      key={row.co}
+                      selected={isItemSelected}
                     >
-                    <TableCell colSpan={6} />
+                      <TableCell padding="checkbox">
+                        <Checkbox
+                          color="primary"
+                          checked={isItemSelected}
+                          inputProps={{
+                            'aria-labelledby': labelId,
+                          }} />
+                      </TableCell>
+                      <TableCell
+                        component="th"
+                        id={labelId}
+                        scope="row"
+                        padding="none"
+                      >
+                        {row.co}
+                      </TableCell>
+                      {Object.keys(row).map(e => {
+                        return e !== 'co' ? <TableCell align="right">{row[e]}</TableCell> : null;
+                      })}
                     </TableRow>
-                )}
-                </TableBody>
-            </Table>
-            </TableContainer>
-            <TablePagination
-            rowsPerPageOptions={[5, 10, 25]}
-            component="div"
-            count={rows.length}
-            rowsPerPage={rowsPerPage}
-            page={page}
-            onPageChange={handleChangePage}
-            onRowsPerPageChange={handleChangeRowsPerPage}
-            />
-        </Paper>
-      <BarChart percentage={ percentage } />
-        </Box>
+                  );
+                })}
+              {emptyRows > 0 && (
+                <TableRow
+                  style={{
+                    height: (53) * emptyRows,
+                  }}
+                >
+                  <TableCell colSpan={6} />
+                </TableRow>
+              )}
+            </TableBody>
+          </Table>
+        </TableContainer>
+        <TablePagination
+          rowsPerPageOptions={[5, 10, 25]}
+          component="div"
+          count={rows.length}
+          rowsPerPage={rowsPerPage}
+          page={page}
+          onPageChange={handleChangePage}
+          onRowsPerPageChange={handleChangeRowsPerPage} />
+      </Paper>
+      </Box>
+      <div style={{ diplay: 'flex' }}>
+        <div style={{ width:'50%',float:'left'}}>
+          <MuiDenseTable percentage={percentage} />
+        </div>
+        <div style={{ width:'50%',float:'left',marginBottom:'70px' }}>
+          <BarChart percentage={percentage} />
+        </div>
+      </div>
+    </div>
     );
     }
