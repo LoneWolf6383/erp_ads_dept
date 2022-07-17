@@ -1,0 +1,88 @@
+[{
+  "_id": {
+    "$oid": "62ad9e51624248c8ffe2c2f6"
+  },
+  "regulation": 19,
+  "courseId": "19IT301",
+  "courseName": "DATA STRUCTURES",
+  "CO": [
+    "Implement the various linear data structures using arrays and pointers",
+    "Implement the different non-linear data structures",
+    "Develop the various heap structures",
+    "Work with searching and hashing techniques",
+    "Apply traversal algorithms in graph"
+  ]
+},{
+  "_id": {
+    "$oid": "62ad9e51624248c8ffe2c2f7"
+  },
+  "regulation": 19,
+  "courseId": "19IT302",
+  "courseName": "DATABASE MANAGEMENT SYSTEMS",
+  "CO": [
+    "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams",
+    "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security",
+    "Normalize databases to reduce cost due to redundancy constraints",
+    "Assess different types of scheduling and recovery techniques for concurrent transactions",
+    "Validate the query evaluation plan and optimize to reduce computational complexity"
+  ]
+},{
+  "_id": {
+    "$oid": "62ad9e51624248c8ffe2c2f8"
+  },
+  "regulation": 19,
+  "courseId": "19AD301",
+  "courseName": "PYTHON PROGRAMMING",
+  "CO": [
+    "Develop basic programs using fundamental structures",
+    "Create programs using various collection data types",
+    "Apply appropriate Python control flow structure",
+    "Implement user defined python functions",
+    "Design classes and use them"
+  ]
+},{
+  "_id": {
+    "$oid": "62ad9e51624248c8ffe2c2f9"
+  },
+  "regulation": 19,
+  "courseId": "19AD302",
+  "courseName": "INTRODUCTION TO AI AND DATA SCIENCE",
+  "CO": [
+    "Apply various searching algorithm in AI",
+    "Apply various knowledge representation methods",
+    "Explore the basics of data science",
+    "Apply concepts of Data Collection and Data Pre-Processing",
+    "Work with data analytics"
+  ]
+},{
+  "_id": {
+    "$oid": "62bfbb824e84ba3208187b50"
+  },
+  "regulation": 19,
+  "courseId": "19IT403",
+  "courseName": "ALGORITHMS ANALYSIS AND DESIGN",
+  "CO": [
+    "Analyze the iterative and recursive algorithms using different techniques",
+    "Use problem solving techniques such as Divide and conquer, greedy method and dynamic programming.",
+    "Apply problem solving techniques such as Backtracking and Branch and Bound",
+    "Perform sorting and searching on the given collection of records using key field",
+    "Analyze the efficiency of NP-complete problems and work with advanced algorithms."
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62bfbbfe4e84ba3208187b54"
+  },
+  "regulation": 19,
+  "courseId": "19AD403",
+  "courseName": "PROGRAMMING WITH JAVA",
+  "CO": [
+    "At the end of the course, the students will be able to",
+    "Develop new classes that inculcates pure object oriented concepts",
+    "Create classes that can handle any generic data type and handles exceptions",
+    "Create application program using Streams and File concept",
+    "Build application programs with Graphical User Interface (GUI)",
+    "Design multithreaded programs in java."
+  ],
+  "__v": 0
+}]

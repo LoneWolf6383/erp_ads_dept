@@ -15,6 +15,7 @@ router.post('/', async (req, res) => {
                 isFaculty=true
                 
         } else {
+            console.log('User Not Available');
             return res.send('User Not Available')    
         }           
         if(req.body.isVerified===true){
@@ -32,7 +33,8 @@ router.post('/', async (req, res) => {
         }
         else
             return res.send('Invalid Captcha Retry')
-    } catch (error) {
+        } catch (error) {
+            console.log(error);
         return res.send("Internal Server Error")
     }
 })

@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "62ada04cba94367954a52ad8"
+  },
+  "facultyUserName": "20BAD036",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "courseId": "19IT301",
+  "courseName": "DATA STRUCTURES",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ada04eba94367954a52adb"
+  },
+  "facultyUserName": "20BAD036",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "courseId": "19IT302",
+  "courseName": "DATABASE MANAGEMENT SYSTEMS",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ada051ba94367954a52ade"
+  },
+  "facultyUserName": "20BAD036",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "courseId": "19AD301",
+  "courseName": "PYTHON PROGRAMMING",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ada052ba94367954a52ae1"
+  },
+  "facultyUserName": "20BAD036",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "courseId": "19AD302",
+  "courseName": "INTRODUCTION TO AI AND DATA SCIENCE",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62c24ba1e08f287b78eda0c4"
+  },
+  "facultyUserName": "20BAD036",
+  "academicYear": "2022-23",
+  "semester": "even",
+  "courseId": "19IT403",
+  "courseName": "ALGORITHMS ANALYSIS AND DESIGN",
+  "__v": 0
+}]

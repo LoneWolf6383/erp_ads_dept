@@ -1,0 +1,2001 @@
+[{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce50"
+  },
+  "username": "20BAD001",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 4,
+        "Implement the different non-linear data structures": 1,
+        "Develop the various heap structures": 4,
+        "Work with searching and hashing techniques": 1,
+        "Apply traversal algorithms in graph": 5
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 3,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 4,
+        "Normalize databases to reduce cost due to redundancy constraints": 3,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 3,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 1
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 5,
+        "Create programs using various collection data types": 5,
+        "Apply appropriate Python control flow structure": 4,
+        "Implement user defined python functions": 1,
+        "Design classes and use them": 1
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 4,
+        "Apply various knowledge representation methods": 5,
+        "Explore the basics of data science": 2,
+        "Apply concepts of Data Collection and Data Pre-Processing": 1,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce51"
+  },
+  "username": "20BAD002",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 3,
+        "Implement the different non-linear data structures": 4,
+        "Develop the various heap structures": 1,
+        "Work with searching and hashing techniques": 2,
+        "Apply traversal algorithms in graph": 1
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 4,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 2,
+        "Normalize databases to reduce cost due to redundancy constraints": 3,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 3,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 2
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 4,
+        "Create programs using various collection data types": 3,
+        "Apply appropriate Python control flow structure": 1,
+        "Implement user defined python functions": 1,
+        "Design classes and use them": 3
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 3,
+        "Apply various knowledge representation methods": 3,
+        "Explore the basics of data science": 5,
+        "Apply concepts of Data Collection and Data Pre-Processing": 2,
+        "Work with data analytics": 4
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce52"
+  },
+  "username": "20BAD003",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 2,
+        "Implement the different non-linear data structures": 5,
+        "Develop the various heap structures": 4,
+        "Work with searching and hashing techniques": 1,
+        "Apply traversal algorithms in graph": 3
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 3,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 5,
+        "Normalize databases to reduce cost due to redundancy constraints": 4,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 3,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 1
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 1,
+        "Create programs using various collection data types": 2,
+        "Apply appropriate Python control flow structure": 1,
+        "Implement user defined python functions": 3,
+        "Design classes and use them": 2
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 2,
+        "Apply various knowledge representation methods": 2,
+        "Explore the basics of data science": 2,
+        "Apply concepts of Data Collection and Data Pre-Processing": 1,
+        "Work with data analytics": 2
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce53"
+  },
+  "username": "20BAD004",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 4,
+        "Implement the different non-linear data structures": 3,
+        "Develop the various heap structures": 4,
+        "Work with searching and hashing techniques": 3,
+        "Apply traversal algorithms in graph": 1
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 1,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 5,
+        "Normalize databases to reduce cost due to redundancy constraints": 3,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 3,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 3
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 4,
+        "Create programs using various collection data types": 4,
+        "Apply appropriate Python control flow structure": 3,
+        "Implement user defined python functions": 2,
+        "Design classes and use them": 4
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 2,
+        "Apply various knowledge representation methods": 1,
+        "Explore the basics of data science": 1,
+        "Apply concepts of Data Collection and Data Pre-Processing": 5,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce54"
+  },
+  "username": "20BAD005",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 5,
+        "Implement the different non-linear data structures": 5,
+        "Develop the various heap structures": 2,
+        "Work with searching and hashing techniques": 5,
+        "Apply traversal algorithms in graph": 4
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 5,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 3,
+        "Normalize databases to reduce cost due to redundancy constraints": 2,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 2,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 5
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 3,
+        "Create programs using various collection data types": 4,
+        "Apply appropriate Python control flow structure": 2,
+        "Implement user defined python functions": 2,
+        "Design classes and use them": 2
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 5,
+        "Apply various knowledge representation methods": 3,
+        "Explore the basics of data science": 2,
+        "Apply concepts of Data Collection and Data Pre-Processing": 3,
+        "Work with data analytics": 3
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce55"
+  },
+  "username": "20BAD006",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 5,
+        "Implement the different non-linear data structures": 2,
+        "Develop the various heap structures": 4,
+        "Work with searching and hashing techniques": 5,
+        "Apply traversal algorithms in graph": 5
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 3,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 4,
+        "Normalize databases to reduce cost due to redundancy constraints": 1,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 4,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 1
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 1,
+        "Create programs using various collection data types": 1,
+        "Apply appropriate Python control flow structure": 4,
+        "Implement user defined python functions": 3,
+        "Design classes and use them": 2
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 2,
+        "Apply various knowledge representation methods": 2,
+        "Explore the basics of data science": 3,
+        "Apply concepts of Data Collection and Data Pre-Processing": 5,
+        "Work with data analytics": 3
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce56"
+  },
+  "username": "20BAD007",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 3,
+        "Implement the different non-linear data structures": 1,
+        "Develop the various heap structures": 1,
+        "Work with searching and hashing techniques": 3,
+        "Apply traversal algorithms in graph": 3
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 3,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 5,
+        "Normalize databases to reduce cost due to redundancy constraints": 2,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 3,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 4
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 4,
+        "Create programs using various collection data types": 1,
+        "Apply appropriate Python control flow structure": 5,
+        "Implement user defined python functions": 4,
+        "Design classes and use them": 5
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 1,
+        "Apply various knowledge representation methods": 3,
+        "Explore the basics of data science": 2,
+        "Apply concepts of Data Collection and Data Pre-Processing": 4,
+        "Work with data analytics": 3
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce57"
+  },
+  "username": "20BAD008",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 4,
+        "Implement the different non-linear data structures": 3,
+        "Develop the various heap structures": 5,
+        "Work with searching and hashing techniques": 3,
+        "Apply traversal algorithms in graph": 5
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 3,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 2,
+        "Normalize databases to reduce cost due to redundancy constraints": 2,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 2,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 1
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 4,
+        "Create programs using various collection data types": 2,
+        "Apply appropriate Python control flow structure": 1,
+        "Implement user defined python functions": 1,
+        "Design classes and use them": 4
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 4,
+        "Apply various knowledge representation methods": 2,
+        "Explore the basics of data science": 3,
+        "Apply concepts of Data Collection and Data Pre-Processing": 4,
+        "Work with data analytics": 2
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce58"
+  },
+  "username": "20BAD009",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 3,
+        "Implement the different non-linear data structures": 3,
+        "Develop the various heap structures": 3,
+        "Work with searching and hashing techniques": 3,
+        "Apply traversal algorithms in graph": 2
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 1,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 5,
+        "Normalize databases to reduce cost due to redundancy constraints": 2,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 3,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 1
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 4,
+        "Create programs using various collection data types": 4,
+        "Apply appropriate Python control flow structure": 4,
+        "Implement user defined python functions": 5,
+        "Design classes and use them": 5
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 5,
+        "Apply various knowledge representation methods": 3,
+        "Explore the basics of data science": 5,
+        "Apply concepts of Data Collection and Data Pre-Processing": 5,
+        "Work with data analytics": 2
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce59"
+  },
+  "username": "20BAD010",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 1,
+        "Implement the different non-linear data structures": 3,
+        "Develop the various heap structures": 4,
+        "Work with searching and hashing techniques": 1,
+        "Apply traversal algorithms in graph": 1
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 5,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 5,
+        "Normalize databases to reduce cost due to redundancy constraints": 5,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 3,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 3
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 2,
+        "Create programs using various collection data types": 4,
+        "Apply appropriate Python control flow structure": 5,
+        "Implement user defined python functions": 5,
+        "Design classes and use them": 5
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 3,
+        "Apply various knowledge representation methods": 1,
+        "Explore the basics of data science": 4,
+        "Apply concepts of Data Collection and Data Pre-Processing": 5,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce5a"
+  },
+  "username": "20BAD011",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 2,
+        "Implement the different non-linear data structures": 2,
+        "Develop the various heap structures": 3,
+        "Work with searching and hashing techniques": 5,
+        "Apply traversal algorithms in graph": 3
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 3,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 3,
+        "Normalize databases to reduce cost due to redundancy constraints": 5,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 3,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 3
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 5,
+        "Create programs using various collection data types": 5,
+        "Apply appropriate Python control flow structure": 4,
+        "Implement user defined python functions": 4,
+        "Design classes and use them": 4
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 5,
+        "Apply various knowledge representation methods": 2,
+        "Explore the basics of data science": 2,
+        "Apply concepts of Data Collection and Data Pre-Processing": 3,
+        "Work with data analytics": 2
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce5b"
+  },
+  "username": "20BAD012",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 2,
+        "Implement the different non-linear data structures": 2,
+        "Develop the various heap structures": 3,
+        "Work with searching and hashing techniques": 5,
+        "Apply traversal algorithms in graph": 1
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 2,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 3,
+        "Normalize databases to reduce cost due to redundancy constraints": 3,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 4,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 3
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 1,
+        "Create programs using various collection data types": 2,
+        "Apply appropriate Python control flow structure": 4,
+        "Implement user defined python functions": 1,
+        "Design classes and use them": 3
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 4,
+        "Apply various knowledge representation methods": 5,
+        "Explore the basics of data science": 3,
+        "Apply concepts of Data Collection and Data Pre-Processing": 3,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce5c"
+  },
+  "username": "20BAD013",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 1,
+        "Implement the different non-linear data structures": 5,
+        "Develop the various heap structures": 1,
+        "Work with searching and hashing techniques": 2,
+        "Apply traversal algorithms in graph": 3
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 1,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 1,
+        "Normalize databases to reduce cost due to redundancy constraints": 3,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 1,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 3
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 5,
+        "Create programs using various collection data types": 4,
+        "Apply appropriate Python control flow structure": 3,
+        "Implement user defined python functions": 2,
+        "Design classes and use them": 2
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 2,
+        "Apply various knowledge representation methods": 1,
+        "Explore the basics of data science": 5,
+        "Apply concepts of Data Collection and Data Pre-Processing": 5,
+        "Work with data analytics": 3
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce5d"
+  },
+  "username": "20BAD014",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 4,
+        "Implement the different non-linear data structures": 2,
+        "Develop the various heap structures": 5,
+        "Work with searching and hashing techniques": 1,
+        "Apply traversal algorithms in graph": 5
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 5,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 1,
+        "Normalize databases to reduce cost due to redundancy constraints": 4,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 5,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 2
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 5,
+        "Create programs using various collection data types": 4,
+        "Apply appropriate Python control flow structure": 3,
+        "Implement user defined python functions": 1,
+        "Design classes and use them": 1
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 1,
+        "Apply various knowledge representation methods": 4,
+        "Explore the basics of data science": 4,
+        "Apply concepts of Data Collection and Data Pre-Processing": 1,
+        "Work with data analytics": 5
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce5e"
+  },
+  "username": "20BAD015",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 5,
+        "Implement the different non-linear data structures": 2,
+        "Develop the various heap structures": 2,
+        "Work with searching and hashing techniques": 2,
+        "Apply traversal algorithms in graph": 3
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 2,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 1,
+        "Normalize databases to reduce cost due to redundancy constraints": 3,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 4,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 5
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 5,
+        "Create programs using various collection data types": 3,
+        "Apply appropriate Python control flow structure": 5,
+        "Implement user defined python functions": 2,
+        "Design classes and use them": 5
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 1,
+        "Apply various knowledge representation methods": 2,
+        "Explore the basics of data science": 4,
+        "Apply concepts of Data Collection and Data Pre-Processing": 3,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce60"
+  },
+  "username": "20BAD017",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 2,
+        "Implement the different non-linear data structures": 1,
+        "Develop the various heap structures": 2,
+        "Work with searching and hashing techniques": 2,
+        "Apply traversal algorithms in graph": 2
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 3,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 4,
+        "Normalize databases to reduce cost due to redundancy constraints": 4,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 5,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 4
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 3,
+        "Create programs using various collection data types": 1,
+        "Apply appropriate Python control flow structure": 5,
+        "Implement user defined python functions": 3,
+        "Design classes and use them": 2
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 2,
+        "Apply various knowledge representation methods": 5,
+        "Explore the basics of data science": 4,
+        "Apply concepts of Data Collection and Data Pre-Processing": 5,
+        "Work with data analytics": 2
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce5f"
+  },
+  "username": "20BAD016",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 3,
+        "Implement the different non-linear data structures": 5,
+        "Develop the various heap structures": 1,
+        "Work with searching and hashing techniques": 3,
+        "Apply traversal algorithms in graph": 2
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 4,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 3,
+        "Normalize databases to reduce cost due to redundancy constraints": 1,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 2,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 2
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 1,
+        "Create programs using various collection data types": 3,
+        "Apply appropriate Python control flow structure": 4,
+        "Implement user defined python functions": 5,
+        "Design classes and use them": 1
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 4,
+        "Apply various knowledge representation methods": 3,
+        "Explore the basics of data science": 4,
+        "Apply concepts of Data Collection and Data Pre-Processing": 4,
+        "Work with data analytics": 3
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce61"
+  },
+  "username": "20BAD018",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 3,
+        "Implement the different non-linear data structures": 2,
+        "Develop the various heap structures": 3,
+        "Work with searching and hashing techniques": 5,
+        "Apply traversal algorithms in graph": 3
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 2,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 1,
+        "Normalize databases to reduce cost due to redundancy constraints": 1,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 5,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 4
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 3,
+        "Create programs using various collection data types": 4,
+        "Apply appropriate Python control flow structure": 3,
+        "Implement user defined python functions": 3,
+        "Design classes and use them": 2
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 4,
+        "Apply various knowledge representation methods": 1,
+        "Explore the basics of data science": 2,
+        "Apply concepts of Data Collection and Data Pre-Processing": 5,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce62"
+  },
+  "username": "20BAD019",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 3,
+        "Implement the different non-linear data structures": 4,
+        "Develop the various heap structures": 4,
+        "Work with searching and hashing techniques": 1,
+        "Apply traversal algorithms in graph": 3
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 3,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 2,
+        "Normalize databases to reduce cost due to redundancy constraints": 4,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 2,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 1
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 5,
+        "Create programs using various collection data types": 2,
+        "Apply appropriate Python control flow structure": 1,
+        "Implement user defined python functions": 1,
+        "Design classes and use them": 4
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 3,
+        "Apply various knowledge representation methods": 3,
+        "Explore the basics of data science": 2,
+        "Apply concepts of Data Collection and Data Pre-Processing": 4,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce63"
+  },
+  "username": "20BAD020",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 1,
+        "Implement the different non-linear data structures": 4,
+        "Develop the various heap structures": 1,
+        "Work with searching and hashing techniques": 5,
+        "Apply traversal algorithms in graph": 2
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 2,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 3,
+        "Normalize databases to reduce cost due to redundancy constraints": 4,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 4,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 1
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 1,
+        "Create programs using various collection data types": 5,
+        "Apply appropriate Python control flow structure": 5,
+        "Implement user defined python functions": 1,
+        "Design classes and use them": 5
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 1,
+        "Apply various knowledge representation methods": 5,
+        "Explore the basics of data science": 1,
+        "Apply concepts of Data Collection and Data Pre-Processing": 5,
+        "Work with data analytics": 3
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce65"
+  },
+  "username": "20BAD022",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 5,
+        "Implement the different non-linear data structures": 1,
+        "Develop the various heap structures": 4,
+        "Work with searching and hashing techniques": 4,
+        "Apply traversal algorithms in graph": 3
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 1,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 2,
+        "Normalize databases to reduce cost due to redundancy constraints": 4,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 5,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 4
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 2,
+        "Create programs using various collection data types": 1,
+        "Apply appropriate Python control flow structure": 1,
+        "Implement user defined python functions": 3,
+        "Design classes and use them": 2
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 4,
+        "Apply various knowledge representation methods": 3,
+        "Explore the basics of data science": 1,
+        "Apply concepts of Data Collection and Data Pre-Processing": 2,
+        "Work with data analytics": 2
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce64"
+  },
+  "username": "20BAD021",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 1,
+        "Implement the different non-linear data structures": 2,
+        "Develop the various heap structures": 3,
+        "Work with searching and hashing techniques": 5,
+        "Apply traversal algorithms in graph": 5
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 4,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 3,
+        "Normalize databases to reduce cost due to redundancy constraints": 1,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 4,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 5
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 3,
+        "Create programs using various collection data types": 2,
+        "Apply appropriate Python control flow structure": 1,
+        "Implement user defined python functions": 5,
+        "Design classes and use them": 5
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 5,
+        "Apply various knowledge representation methods": 5,
+        "Explore the basics of data science": 4,
+        "Apply concepts of Data Collection and Data Pre-Processing": 1,
+        "Work with data analytics": 5
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce66"
+  },
+  "username": "20BAD025",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 5,
+        "Implement the different non-linear data structures": 2,
+        "Develop the various heap structures": 3,
+        "Work with searching and hashing techniques": 1,
+        "Apply traversal algorithms in graph": 3
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 5,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 4,
+        "Normalize databases to reduce cost due to redundancy constraints": 3,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 2,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 5
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 5,
+        "Create programs using various collection data types": 3,
+        "Apply appropriate Python control flow structure": 4,
+        "Implement user defined python functions": 4,
+        "Design classes and use them": 5
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 5,
+        "Apply various knowledge representation methods": 3,
+        "Explore the basics of data science": 2,
+        "Apply concepts of Data Collection and Data Pre-Processing": 3,
+        "Work with data analytics": 4
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce67"
+  },
+  "username": "20BAD026",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 1,
+        "Implement the different non-linear data structures": 3,
+        "Develop the various heap structures": 4,
+        "Work with searching and hashing techniques": 1,
+        "Apply traversal algorithms in graph": 3
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 1,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 1,
+        "Normalize databases to reduce cost due to redundancy constraints": 2,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 2,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 5
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 1,
+        "Create programs using various collection data types": 5,
+        "Apply appropriate Python control flow structure": 5,
+        "Implement user defined python functions": 2,
+        "Design classes and use them": 4
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 3,
+        "Apply various knowledge representation methods": 5,
+        "Explore the basics of data science": 4,
+        "Apply concepts of Data Collection and Data Pre-Processing": 3,
+        "Work with data analytics": 5
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce68"
+  },
+  "username": "20BAD027",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 2,
+        "Implement the different non-linear data structures": 4,
+        "Develop the various heap structures": 5,
+        "Work with searching and hashing techniques": 4,
+        "Apply traversal algorithms in graph": 2
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 1,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 3,
+        "Normalize databases to reduce cost due to redundancy constraints": 5,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 2,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 3
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 5,
+        "Create programs using various collection data types": 1,
+        "Apply appropriate Python control flow structure": 2,
+        "Implement user defined python functions": 4,
+        "Design classes and use them": 4
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 5,
+        "Apply various knowledge representation methods": 4,
+        "Explore the basics of data science": 2,
+        "Apply concepts of Data Collection and Data Pre-Processing": 5,
+        "Work with data analytics": 4
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce69"
+  },
+  "username": "20BAD028",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 2,
+        "Implement the different non-linear data structures": 3,
+        "Develop the various heap structures": 5,
+        "Work with searching and hashing techniques": 5,
+        "Apply traversal algorithms in graph": 4
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 3,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 2,
+        "Normalize databases to reduce cost due to redundancy constraints": 2,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 1,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 4
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 3,
+        "Create programs using various collection data types": 5,
+        "Apply appropriate Python control flow structure": 3,
+        "Implement user defined python functions": 3,
+        "Design classes and use them": 3
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 5,
+        "Apply various knowledge representation methods": 2,
+        "Explore the basics of data science": 5,
+        "Apply concepts of Data Collection and Data Pre-Processing": 5,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce6a"
+  },
+  "username": "20BAD029",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 5,
+        "Implement the different non-linear data structures": 1,
+        "Develop the various heap structures": 3,
+        "Work with searching and hashing techniques": 4,
+        "Apply traversal algorithms in graph": 3
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 4,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 2,
+        "Normalize databases to reduce cost due to redundancy constraints": 3,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 1,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 3
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 2,
+        "Create programs using various collection data types": 3,
+        "Apply appropriate Python control flow structure": 5,
+        "Implement user defined python functions": 1,
+        "Design classes and use them": 3
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 5,
+        "Apply various knowledge representation methods": 3,
+        "Explore the basics of data science": 2,
+        "Apply concepts of Data Collection and Data Pre-Processing": 4,
+        "Work with data analytics": 2
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce6b"
+  },
+  "username": "20BAD030",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 4,
+        "Implement the different non-linear data structures": 3,
+        "Develop the various heap structures": 1,
+        "Work with searching and hashing techniques": 3,
+        "Apply traversal algorithms in graph": 1
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 1,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 4,
+        "Normalize databases to reduce cost due to redundancy constraints": 4,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 4,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 2
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 1,
+        "Create programs using various collection data types": 3,
+        "Apply appropriate Python control flow structure": 5,
+        "Implement user defined python functions": 1,
+        "Design classes and use them": 4
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 3,
+        "Apply various knowledge representation methods": 1,
+        "Explore the basics of data science": 4,
+        "Apply concepts of Data Collection and Data Pre-Processing": 3,
+        "Work with data analytics": 5
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce6c"
+  },
+  "username": "20BAD031",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 3,
+        "Implement the different non-linear data structures": 1,
+        "Develop the various heap structures": 2,
+        "Work with searching and hashing techniques": 3,
+        "Apply traversal algorithms in graph": 2
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 4,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 4,
+        "Normalize databases to reduce cost due to redundancy constraints": 4,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 5,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 1
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 2,
+        "Create programs using various collection data types": 3,
+        "Apply appropriate Python control flow structure": 1,
+        "Implement user defined python functions": 4,
+        "Design classes and use them": 5
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 4,
+        "Apply various knowledge representation methods": 5,
+        "Explore the basics of data science": 2,
+        "Apply concepts of Data Collection and Data Pre-Processing": 2,
+        "Work with data analytics": 3
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce6e"
+  },
+  "username": "20BAD033",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 5,
+        "Implement the different non-linear data structures": 3,
+        "Develop the various heap structures": 1,
+        "Work with searching and hashing techniques": 5,
+        "Apply traversal algorithms in graph": 5
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 4,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 1,
+        "Normalize databases to reduce cost due to redundancy constraints": 1,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 3,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 4
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 4,
+        "Create programs using various collection data types": 1,
+        "Apply appropriate Python control flow structure": 5,
+        "Implement user defined python functions": 5,
+        "Design classes and use them": 2
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 3,
+        "Apply various knowledge representation methods": 3,
+        "Explore the basics of data science": 1,
+        "Apply concepts of Data Collection and Data Pre-Processing": 3,
+        "Work with data analytics": 5
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce6d"
+  },
+  "username": "20BAD032",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 1,
+        "Implement the different non-linear data structures": 5,
+        "Develop the various heap structures": 1,
+        "Work with searching and hashing techniques": 2,
+        "Apply traversal algorithms in graph": 3
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 4,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 3,
+        "Normalize databases to reduce cost due to redundancy constraints": 5,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 4,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 4
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 2,
+        "Create programs using various collection data types": 4,
+        "Apply appropriate Python control flow structure": 1,
+        "Implement user defined python functions": 2,
+        "Design classes and use them": 3
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 5,
+        "Apply various knowledge representation methods": 1,
+        "Explore the basics of data science": 4,
+        "Apply concepts of Data Collection and Data Pre-Processing": 3,
+        "Work with data analytics": 4
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce6f"
+  },
+  "username": "20BAD034",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 3,
+        "Implement the different non-linear data structures": 1,
+        "Develop the various heap structures": 3,
+        "Work with searching and hashing techniques": 1,
+        "Apply traversal algorithms in graph": 3
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 2,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 1,
+        "Normalize databases to reduce cost due to redundancy constraints": 5,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 2,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 2
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 2,
+        "Create programs using various collection data types": 5,
+        "Apply appropriate Python control flow structure": 5,
+        "Implement user defined python functions": 1,
+        "Design classes and use them": 3
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 1,
+        "Apply various knowledge representation methods": 1,
+        "Explore the basics of data science": 2,
+        "Apply concepts of Data Collection and Data Pre-Processing": 1,
+        "Work with data analytics": 4
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce70"
+  },
+  "username": "20BAD035",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 5,
+        "Implement the different non-linear data structures": 5,
+        "Develop the various heap structures": 3,
+        "Work with searching and hashing techniques": 3,
+        "Apply traversal algorithms in graph": 2
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 1,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 4,
+        "Normalize databases to reduce cost due to redundancy constraints": 4,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 1,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 1
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 2,
+        "Create programs using various collection data types": 5,
+        "Apply appropriate Python control flow structure": 4,
+        "Implement user defined python functions": 5,
+        "Design classes and use them": 1
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 2,
+        "Apply various knowledge representation methods": 3,
+        "Explore the basics of data science": 5,
+        "Apply concepts of Data Collection and Data Pre-Processing": 5,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce71"
+  },
+  "username": "20BAD036",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 4,
+        "Implement the different non-linear data structures": 4,
+        "Develop the various heap structures": 4,
+        "Work with searching and hashing techniques": 2,
+        "Apply traversal algorithms in graph": 5
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 2,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 3,
+        "Normalize databases to reduce cost due to redundancy constraints": 3,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 2,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 1
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 1,
+        "Create programs using various collection data types": 3,
+        "Apply appropriate Python control flow structure": 5,
+        "Implement user defined python functions": 2,
+        "Design classes and use them": 2
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 5,
+        "Apply various knowledge representation methods": 4,
+        "Explore the basics of data science": 3,
+        "Apply concepts of Data Collection and Data Pre-Processing": 4,
+        "Work with data analytics": 3
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce72"
+  },
+  "username": "20BAD037",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 1,
+        "Implement the different non-linear data structures": 1,
+        "Develop the various heap structures": 3,
+        "Work with searching and hashing techniques": 2,
+        "Apply traversal algorithms in graph": 1
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 1,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 4,
+        "Normalize databases to reduce cost due to redundancy constraints": 4,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 4,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 2
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 5,
+        "Create programs using various collection data types": 2,
+        "Apply appropriate Python control flow structure": 3,
+        "Implement user defined python functions": 1,
+        "Design classes and use them": 5
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 4,
+        "Apply various knowledge representation methods": 2,
+        "Explore the basics of data science": 1,
+        "Apply concepts of Data Collection and Data Pre-Processing": 1,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce73"
+  },
+  "username": "20BAD038",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 3,
+        "Implement the different non-linear data structures": 1,
+        "Develop the various heap structures": 2,
+        "Work with searching and hashing techniques": 4,
+        "Apply traversal algorithms in graph": 2
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 3,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 1,
+        "Normalize databases to reduce cost due to redundancy constraints": 4,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 2,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 1
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 4,
+        "Create programs using various collection data types": 1,
+        "Apply appropriate Python control flow structure": 3,
+        "Implement user defined python functions": 2,
+        "Design classes and use them": 3
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 3,
+        "Apply various knowledge representation methods": 5,
+        "Explore the basics of data science": 5,
+        "Apply concepts of Data Collection and Data Pre-Processing": 1,
+        "Work with data analytics": 2
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce75"
+  },
+  "username": "20BAD040",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 5,
+        "Implement the different non-linear data structures": 4,
+        "Develop the various heap structures": 5,
+        "Work with searching and hashing techniques": 2,
+        "Apply traversal algorithms in graph": 3
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 3,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 5,
+        "Normalize databases to reduce cost due to redundancy constraints": 4,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 5,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 3
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 1,
+        "Create programs using various collection data types": 2,
+        "Apply appropriate Python control flow structure": 5,
+        "Implement user defined python functions": 3,
+        "Design classes and use them": 2
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 4,
+        "Apply various knowledge representation methods": 4,
+        "Explore the basics of data science": 1,
+        "Apply concepts of Data Collection and Data Pre-Processing": 5,
+        "Work with data analytics": 4
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce74"
+  },
+  "username": "20BAD039",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 5,
+        "Implement the different non-linear data structures": 4,
+        "Develop the various heap structures": 5,
+        "Work with searching and hashing techniques": 2,
+        "Apply traversal algorithms in graph": 4
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 5,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 3,
+        "Normalize databases to reduce cost due to redundancy constraints": 3,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 3,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 5
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 5,
+        "Create programs using various collection data types": 4,
+        "Apply appropriate Python control flow structure": 5,
+        "Implement user defined python functions": 1,
+        "Design classes and use them": 5
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 1,
+        "Apply various knowledge representation methods": 3,
+        "Explore the basics of data science": 3,
+        "Apply concepts of Data Collection and Data Pre-Processing": 5,
+        "Work with data analytics": 4
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce76"
+  },
+  "username": "20BAD041",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 5,
+        "Implement the different non-linear data structures": 4,
+        "Develop the various heap structures": 5,
+        "Work with searching and hashing techniques": 4,
+        "Apply traversal algorithms in graph": 4
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 2,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 1,
+        "Normalize databases to reduce cost due to redundancy constraints": 5,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 4,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 5
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 5,
+        "Create programs using various collection data types": 2,
+        "Apply appropriate Python control flow structure": 4,
+        "Implement user defined python functions": 4,
+        "Design classes and use them": 4
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 4,
+        "Apply various knowledge representation methods": 4,
+        "Explore the basics of data science": 3,
+        "Apply concepts of Data Collection and Data Pre-Processing": 3,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce77"
+  },
+  "username": "20BAD042",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 5,
+        "Implement the different non-linear data structures": 2,
+        "Develop the various heap structures": 3,
+        "Work with searching and hashing techniques": 5,
+        "Apply traversal algorithms in graph": 2
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 2,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 5,
+        "Normalize databases to reduce cost due to redundancy constraints": 2,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 2,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 1
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 1,
+        "Create programs using various collection data types": 5,
+        "Apply appropriate Python control flow structure": 4,
+        "Implement user defined python functions": 2,
+        "Design classes and use them": 4
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 4,
+        "Apply various knowledge representation methods": 2,
+        "Explore the basics of data science": 3,
+        "Apply concepts of Data Collection and Data Pre-Processing": 2,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce78"
+  },
+  "username": "20BAD043",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 2,
+        "Implement the different non-linear data structures": 4,
+        "Develop the various heap structures": 2,
+        "Work with searching and hashing techniques": 4,
+        "Apply traversal algorithms in graph": 5
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 5,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 2,
+        "Normalize databases to reduce cost due to redundancy constraints": 5,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 5,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 1
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 1,
+        "Create programs using various collection data types": 5,
+        "Apply appropriate Python control flow structure": 3,
+        "Implement user defined python functions": 5,
+        "Design classes and use them": 5
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 4,
+        "Apply various knowledge representation methods": 4,
+        "Explore the basics of data science": 2,
+        "Apply concepts of Data Collection and Data Pre-Processing": 2,
+        "Work with data analytics": 4
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce79"
+  },
+  "username": "20BAD044",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 1,
+        "Implement the different non-linear data structures": 2,
+        "Develop the various heap structures": 4,
+        "Work with searching and hashing techniques": 4,
+        "Apply traversal algorithms in graph": 5
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 2,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 4,
+        "Normalize databases to reduce cost due to redundancy constraints": 5,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 3,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 2
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 3,
+        "Create programs using various collection data types": 5,
+        "Apply appropriate Python control flow structure": 4,
+        "Implement user defined python functions": 3,
+        "Design classes and use them": 3
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 4,
+        "Apply various knowledge representation methods": 5,
+        "Explore the basics of data science": 3,
+        "Apply concepts of Data Collection and Data Pre-Processing": 4,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce7a"
+  },
+  "username": "20BAD045",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 3,
+        "Implement the different non-linear data structures": 5,
+        "Develop the various heap structures": 1,
+        "Work with searching and hashing techniques": 4,
+        "Apply traversal algorithms in graph": 2
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 1,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 1,
+        "Normalize databases to reduce cost due to redundancy constraints": 5,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 4,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 1
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 3,
+        "Create programs using various collection data types": 4,
+        "Apply appropriate Python control flow structure": 2,
+        "Implement user defined python functions": 1,
+        "Design classes and use them": 1
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 5,
+        "Apply various knowledge representation methods": 2,
+        "Explore the basics of data science": 4,
+        "Apply concepts of Data Collection and Data Pre-Processing": 4,
+        "Work with data analytics": 3
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce7b"
+  },
+  "username": "20BAD046",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 1,
+        "Implement the different non-linear data structures": 2,
+        "Develop the various heap structures": 2,
+        "Work with searching and hashing techniques": 5,
+        "Apply traversal algorithms in graph": 4
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 4,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 3,
+        "Normalize databases to reduce cost due to redundancy constraints": 2,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 4,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 3
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 4,
+        "Create programs using various collection data types": 5,
+        "Apply appropriate Python control flow structure": 2,
+        "Implement user defined python functions": 3,
+        "Design classes and use them": 1
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 4,
+        "Apply various knowledge representation methods": 2,
+        "Explore the basics of data science": 1,
+        "Apply concepts of Data Collection and Data Pre-Processing": 1,
+        "Work with data analytics": 3
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce7c"
+  },
+  "username": "20BAD047",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 2,
+        "Implement the different non-linear data structures": 3,
+        "Develop the various heap structures": 4,
+        "Work with searching and hashing techniques": 2,
+        "Apply traversal algorithms in graph": 4
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 1,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 5,
+        "Normalize databases to reduce cost due to redundancy constraints": 3,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 2,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 3
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 3,
+        "Create programs using various collection data types": 4,
+        "Apply appropriate Python control flow structure": 2,
+        "Implement user defined python functions": 3,
+        "Design classes and use them": 3
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 2,
+        "Apply various knowledge representation methods": 2,
+        "Explore the basics of data science": 1,
+        "Apply concepts of Data Collection and Data Pre-Processing": 4,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce7d"
+  },
+  "username": "20BAD048",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 1,
+        "Implement the different non-linear data structures": 5,
+        "Develop the various heap structures": 5,
+        "Work with searching and hashing techniques": 2,
+        "Apply traversal algorithms in graph": 3
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 4,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 2,
+        "Normalize databases to reduce cost due to redundancy constraints": 2,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 4,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 4
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 2,
+        "Create programs using various collection data types": 4,
+        "Apply appropriate Python control flow structure": 3,
+        "Implement user defined python functions": 5,
+        "Design classes and use them": 1
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 4,
+        "Apply various knowledge representation methods": 5,
+        "Explore the basics of data science": 1,
+        "Apply concepts of Data Collection and Data Pre-Processing": 2,
+        "Work with data analytics": 5
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce7e"
+  },
+  "username": "20BADL01",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 2,
+        "Implement the different non-linear data structures": 1,
+        "Develop the various heap structures": 4,
+        "Work with searching and hashing techniques": 4,
+        "Apply traversal algorithms in graph": 4
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 1,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 2,
+        "Normalize databases to reduce cost due to redundancy constraints": 2,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 5,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 3
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 5,
+        "Create programs using various collection data types": 5,
+        "Apply appropriate Python control flow structure": 4,
+        "Implement user defined python functions": 1,
+        "Design classes and use them": 2
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 5,
+        "Apply various knowledge representation methods": 3,
+        "Explore the basics of data science": 3,
+        "Apply concepts of Data Collection and Data Pre-Processing": 2,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce7f"
+  },
+  "username": "20BADL02",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 2,
+        "Implement the different non-linear data structures": 3,
+        "Develop the various heap structures": 4,
+        "Work with searching and hashing techniques": 3,
+        "Apply traversal algorithms in graph": 4
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 5,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 3,
+        "Normalize databases to reduce cost due to redundancy constraints": 3,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 5,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 4
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 3,
+        "Create programs using various collection data types": 1,
+        "Apply appropriate Python control flow structure": 1,
+        "Implement user defined python functions": 1,
+        "Design classes and use them": 5
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 1,
+        "Apply various knowledge representation methods": 5,
+        "Explore the basics of data science": 2,
+        "Apply concepts of Data Collection and Data Pre-Processing": 4,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce80"
+  },
+  "username": "20BADL03",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 1,
+        "Implement the different non-linear data structures": 4,
+        "Develop the various heap structures": 3,
+        "Work with searching and hashing techniques": 3,
+        "Apply traversal algorithms in graph": 4
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 3,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 4,
+        "Normalize databases to reduce cost due to redundancy constraints": 3,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 3,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 5
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 2,
+        "Create programs using various collection data types": 2,
+        "Apply appropriate Python control flow structure": 3,
+        "Implement user defined python functions": 2,
+        "Design classes and use them": 2
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 1,
+        "Apply various knowledge representation methods": 5,
+        "Explore the basics of data science": 1,
+        "Apply concepts of Data Collection and Data Pre-Processing": 5,
+        "Work with data analytics": 3
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62d4555a30bcdfba8156ce81"
+  },
+  "username": "20BADL04",
+  "academicYear": "2021-22",
+  "semester": "odd",
+  "review": [
+    {
+      "DATA STRUCTURES": {
+        "Implement the various linear data structures using arrays and pointers": 2,
+        "Implement the different non-linear data structures": 4,
+        "Develop the various heap structures": 3,
+        "Work with searching and hashing techniques": 5,
+        "Apply traversal algorithms in graph": 3
+      },
+      "DATABASE MANAGEMENT SYSTEMS": {
+        "Explore the basic concepts of Database system and design database for enterprise applications using Entity Relationship Diagrams": 2,
+        "Analyze the consequence of calculus in designing relational model and create database using query languages with constraints and security": 5,
+        "Normalize databases to reduce cost due to redundancy constraints": 2,
+        "Assess different types of scheduling and recovery techniques for concurrent transactions": 2,
+        "Validate the query evaluation plan and optimize to reduce computational complexity": 2
+      },
+      "PYTHON PROGRAMMING": {
+        "Develop basic programs using fundamental structures": 3,
+        "Create programs using various collection data types": 3,
+        "Apply appropriate Python control flow structure": 2,
+        "Implement user defined python functions": 2,
+        "Design classes and use them": 2
+      },
+      "INTRODUCTION TO AI AND DATA SCIENCE": {
+        "Apply various searching algorithm in AI": 1,
+        "Apply various knowledge representation methods": 4,
+        "Explore the basics of data science": 5,
+        "Apply concepts of Data Collection and Data Pre-Processing": 2,
+        "Work with data analytics": 1
+      }
+    }
+  ],
+  "__v": 0
+}]

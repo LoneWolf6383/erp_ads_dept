@@ -1,0 +1,432 @@
+[{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c35"
+  },
+  "name": "Aksshaya B",
+  "username": "20BAD001",
+  "password": "Aks001",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c36"
+  },
+  "name": "Amirthavarshini B",
+  "username": "20BAD002",
+  "password": "Ami002",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c37"
+  },
+  "name": "B.Tanuja",
+  "username": "20BAD003",
+  "password": "Tan003",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c38"
+  },
+  "name": "Bhuvana S",
+  "username": "20BAD004",
+  "password": "Bhu004",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c39"
+  },
+  "name": "S.B.Dhakshana Kabi",
+  "username": "20BAD005",
+  "password": "Dha005",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c3a"
+  },
+  "name": "Emily A",
+  "username": "20BAD006",
+  "password": "Emi006",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c3b"
+  },
+  "name": "K.Ashwitha",
+  "username": "20BAD007",
+  "password": "Ash007",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c3c"
+  },
+  "name": "Kanimozhi V",
+  "username": "20BAD008",
+  "password": "Kan008",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c3d"
+  },
+  "name": "Karish Prajaishma G R",
+  "username": "20BAD009",
+  "password": "Kar009",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c3e"
+  },
+  "name": "APS.Karthika",
+  "username": "20BAD010",
+  "password": "Kar010",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c3f"
+  },
+  "name": "M.Logha",
+  "username": "20BAD011",
+  "password": "Log011",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c40"
+  },
+  "name": "Manju Bala S",
+  "username": "20BAD012",
+  "password": "Man012",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c41"
+  },
+  "name": "N.Akshara",
+  "username": "20BAD013",
+  "password": "Aks013",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c42"
+  },
+  "name": "A.Poshika",
+  "username": "20BAD014",
+  "password": "Pos014",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c43"
+  },
+  "name": "Raagavi",
+  "username": "20BAD015",
+  "password": "Raa015",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c44"
+  },
+  "name": "K.Subasini",
+  "username": "20BAD016",
+  "password": "Sub016",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c45"
+  },
+  "name": "Subiksha S",
+  "username": "20BAD017",
+  "password": "Sub017",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c46"
+  },
+  "name": "Varsha S",
+  "username": "20BAD018",
+  "password": "Var018",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c47"
+  },
+  "name": "S.K.Varshah",
+  "username": "20BAD019",
+  "password": "Var019",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c48"
+  },
+  "name": "Vijayabarathi V",
+  "username": "20BAD020",
+  "password": "Vij020",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c49"
+  },
+  "name": "Yoga Vardhani M",
+  "username": "20BAD021",
+  "password": "Yog021",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c4a"
+  },
+  "name": "Aakash K",
+  "username": "20BAD022",
+  "password": "Aak022",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c4b"
+  },
+  "name": "Bharath D",
+  "username": "20BAD025",
+  "password": "Bha025",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c4c"
+  },
+  "name": "Buvaneshkumaar A",
+  "username": "20BAD026",
+  "password": "Buv026",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c4d"
+  },
+  "name": "Cranio Wilbert",
+  "username": "20BAD027",
+  "password": "Cra027",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c4e"
+  },
+  "name": "Davis Joshi A",
+  "username": "20BAD028",
+  "password": "Dav028",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c4f"
+  },
+  "name": "Dharun Kumar B",
+  "username": "20BAD029",
+  "password": "Dha029",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c50"
+  },
+  "name": "Gokul R",
+  "username": "20BAD030",
+  "password": "Gok030",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c51"
+  },
+  "name": "Hishaamudin Z",
+  "username": "20BAD031",
+  "password": "His031",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c52"
+  },
+  "name": "Inish Raj B",
+  "username": "20BAD032",
+  "password": "Ini032",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c53"
+  },
+  "name": "Javid Ahamed M",
+  "username": "20BAD033",
+  "password": "Jav033",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c54"
+  },
+  "name": "Jegan V G",
+  "username": "20BAD034",
+  "password": "Jeg034",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c55"
+  },
+  "name": "Jeyanth Kallis Sweeton C",
+  "username": "20BAD035",
+  "password": "Jey035",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c56"
+  },
+  "name": "Namasivaayam L",
+  "username": "20BAD036",
+  "password": "Nam036",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c57"
+  },
+  "name": "Nitheeswaran E",
+  "username": "20BAD037",
+  "password": "Nit037",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c58"
+  },
+  "name": "T.Ponkumaran",
+  "username": "20BAD038",
+  "password": "Pon038",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c59"
+  },
+  "name": "Praveen Solomon S",
+  "username": "20BAD039",
+  "password": "Pra039",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c5a"
+  },
+  "name": "Ragavan M",
+  "username": "20BAD040",
+  "password": "Rag040",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c5b"
+  },
+  "name": "R.Sailesh",
+  "username": "20BAD041",
+  "password": "Sai041",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c5c"
+  },
+  "name": "N.Sakthi Parameswaran",
+  "username": "20BAD042",
+  "password": "Sak042",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c5d"
+  },
+  "name": "SALMAN ALI S",
+  "username": "20BAD043",
+  "password": "SAL043",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c5e"
+  },
+  "name": "S.Siddarth",
+  "username": "20BAD044",
+  "password": "Sid044",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c5f"
+  },
+  "name": "Siyon V A",
+  "username": "20BAD045",
+  "password": "Siy045",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c60"
+  },
+  "name": "M.Sujith",
+  "username": "20BAD046",
+  "password": "Suj046",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c61"
+  },
+  "name": "J. Vishnu Sankar",
+  "username": "20BAD047",
+  "password": "Vis047",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c62"
+  },
+  "name": "B.Yaswanth",
+  "username": "20BAD048",
+  "password": "Yas048",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c63"
+  },
+  "name": "A.C.Janani",
+  "username": "20BADL01",
+  "password": "JanL01",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c64"
+  },
+  "name": "A.Safhrin",
+  "username": "20BADL02",
+  "password": "SafL02",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c65"
+  },
+  "name": "Ajithar A",
+  "username": "20BADL03",
+  "password": "AjiL03",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c66"
+  },
+  "name": "P.Vimal",
+  "username": "20BADL04",
+  "password": "VimL04",
+  "userRole": "student"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c67"
+  },
+  "username": "21aidts011",
+  "password": "21aidts011",
+  "userRole": "faculty"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c68"
+  },
+  "name": "Faculty1",
+  "username": "21aidts012",
+  "password": "21aidts012",
+  "userRole": "faculty"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c69"
+  },
+  "name": "Faculty2",
+  "username": "21aidts013",
+  "password": "21aidts013",
+  "userRole": "faculty"
+},{
+  "_id": {
+    "$oid": "62ad9dab1d8094d289c54c6a"
+  },
+  "name": "Faculty3",
+  "username": "04itts0026",
+  "password": "04itts0026",
+  "userRole": "faculty"
+}]
