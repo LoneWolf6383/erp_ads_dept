@@ -6,7 +6,7 @@ import  MuiReactTable from './muiReactTable'
 
 export const DisplayResults = () => {
     const [content, setContent] = useState([])
-
+    const [len, setLen] = useState(0)
     useEffect(() => {
         const getContent = async () => { 
           const pathname  = window.location.href.split("?")[1]
@@ -16,16 +16,16 @@ export const DisplayResults = () => {
           }
             const { data: res } = await axios.post('/getResults', data)
             const review = {}
+            setLen(res.length)  
             res.forEach(user => {
               Object.entries(user.review).map(course => {
                   if (review[course[0]])
-                    review[course[0]].push(course[1])
+                    return review[course[0]].push(course[1])
                   else
-                    review[course[0]] = [course[1]]
+                    return review[course[0]] = [course[1]]
               })
             });
           setContent(review)
-          console.log(content)
           }   
         getContent()
     })
@@ -36,7 +36,7 @@ export const DisplayResults = () => {
       <Banner/>
       {
         Object.entries(content).map(course => (
-          <MuiReactTable data={course}/>
+          <MuiReactTable data={course} len={len} />
         ))
       }
     </div>
