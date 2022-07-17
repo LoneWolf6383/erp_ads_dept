@@ -19,7 +19,7 @@ import Tooltip from '@mui/material/Tooltip';
 import DeleteIcon from '@mui/icons-material/Delete';
 import FilterListIcon from '@mui/icons-material/FilterList';
 import { visuallyHidden } from '@mui/utils';
-
+import {BarChart} from './GraphPlot/barChart.tsx'
 function createData(co,ratings) {
   return {
       co,
@@ -192,7 +192,8 @@ export default function EnhancedTable( props ) {
     const [rowsPerPage, setRowsPerPage] = React.useState(5);
     const rows = [];
     const review = {}
-    props.data[1].forEach(user=>{
+    
+    props.data[1].forEach(user => {
         Object.entries(user).map(co => {
             if (review[co[0]])
                 return review[co[0]].push(co[1])
@@ -204,6 +205,18 @@ export default function EnhancedTable( props ) {
     Object.entries(review).map(c =>
         rows.push(createData(c[0], c[1]))
     )
+    const percentage = {}
+    Object.entries(review).map(ratings =>{
+      let sum = 0
+      ratings[1].forEach(val => {
+        if (val >= 3) {
+          sum+=val
+        }
+      })
+      percentage[ratings[0]] = (sum/props.len)*10
+      return percentage
+    })
+  
     const handleRequestSort = (event, property) => {
         const isAsc = orderBy === property && order === 'asc';
         setOrder(isAsc ? 'desc' : 'asc');
@@ -254,7 +267,7 @@ export default function EnhancedTable( props ) {
     const emptyRows =
         page > 0 ? Math.max(0, (1 + page) * rowsPerPage - rows.length) : 0;
 
-    return (
+  return (
         <Box sx={{ width: '100%' }}>
         <Paper sx={{ width: '100%', mb: 2 }}>
             <EnhancedTableToolbar title={props.data[0]} numSelected={selected.length} />
@@ -338,6 +351,7 @@ export default function EnhancedTable( props ) {
             onRowsPerPageChange={handleChangeRowsPerPage}
             />
         </Paper>
+      <BarChart percentage={ percentage } />
         </Box>
     );
     }

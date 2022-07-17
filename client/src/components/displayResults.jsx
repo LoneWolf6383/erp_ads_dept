@@ -3,7 +3,6 @@ import axios from 'axios'
 import {NavBar} from './NavBar'
 import { Banner } from './banner'
 import  MuiReactTable from './muiReactTable'
-
 export const DisplayResults = () => {
     const [content, setContent] = useState([])
     const [len, setLen] = useState(0)
