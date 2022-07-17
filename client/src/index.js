@@ -9,6 +9,7 @@ import { LogInPage } from './pages/logInPage'
 import {FacultyDashboard} from './pages/facultyDashboard'
 import { StudentDashboard } from './pages/studentDashboard';
 import { DisplayResults } from './components/displayResults';
+import { SuccessfulFeedback } from './components/successfulFeedback';
 ReactDOM.render(
   <ThemeContextWrapper>
     <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
           <Route path='/login' element={<LogInPage/>}/>  
           <Route path='/studentDashboard' element={<StudentDashboard />} />  
           <Route path='/studentDashboard/feedback' element={ <FeedBackForm/> } />
+          <Route path='/studentDashboard/feedback/success' element={ <SuccessfulFeedback/> } />
           <Route path='/facultyDashboard' element={<FacultyDashboard/>}/>
           <Route path='/facultyDashboard/results' element={<DisplayResults/>}/>
         </Routes>

@@ -351,10 +351,10 @@ export default function EnhancedTable( props ) {
       </Paper>
       </Box>
       <div style={{ diplay: 'flex' }}>
-        <div style={{ width:'50%',float:'left'}}>
+        <div style={{ width:'50%',float:'left',marginTop:'80px'}}>
           <MuiDenseTable percentage={percentage} />
         </div>
-        <div style={{ width:'50%',float:'left',marginBottom:'70px' }}>
+        <div style={{ width:'50%',float:'left'}}>
           <BarChart percentage={percentage} />
         </div>
       </div>

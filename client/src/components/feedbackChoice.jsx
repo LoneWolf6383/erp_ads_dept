@@ -28,6 +28,9 @@ export const FeedbackChoice = () => {
                 <td style={{flex:'1'}}><label>Semester:</label></td>
                 <td style={{flex:'1'}}><DynDropDown onChange={val=>{setSemester(val)}} label='semesters'/></td>
             </tr>
+            <tr>
+                <p>Your Feedback is Anonymous, Be Honest!</p>
+            </tr>
         </tbody>
         <Button className='btn btn-primary' onClick={chooseFeedback}>Give Feedback</Button>
     </table>

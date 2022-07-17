@@ -40,6 +40,7 @@ export const StudentDashboard = () => {
                         <FeedbackChoice/>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
+                      Under Development!
                     </Tab.Pane>
                   </Tab.Content>
                 </Col>

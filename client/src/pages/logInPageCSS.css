@@ -11,7 +11,7 @@ body{
     height: 100vh;
     background-size: cover;
     background-position: center;
-    filter:brightness(70%);
+    filter:brightness(90%);
 }
 
 .bg-img::after{
