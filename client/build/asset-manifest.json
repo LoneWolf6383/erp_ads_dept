@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0e20895c.css",
+    "main.js": "/static/js/main.0e422ecc.js",
+    "static/media/wallpaperflare.com_wallpaper.jpg": "/static/media/wallpaperflare.com_wallpaper.3de0c3e4e0327266ff01.jpg",
+    "static/media/mepcoBanner.jpg": "/static/media/mepcoBanner.922b6537ae9f330be4e2.jpg",
+    "index.html": "/index.html",
+    "main.0e20895c.css.map": "/static/css/main.0e20895c.css.map",
+    "main.0e422ecc.js.map": "/static/js/main.0e422ecc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e20895c.css",
+    "static/js/main.0e422ecc.js"
+  ]
+}
