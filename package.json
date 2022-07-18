@@ -1,7 +1,7 @@
 {
-  "name": "testing_fb_form",
-  "version": "1.0.0",
-  "description": "test run",
+  "name": "erp_ads_dept",
+  "version": "0.1.0",
+  "private": true,
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
@@ -9,8 +9,7 @@
     "build": "npm run build --prefix client",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix ./ && npm run build --prefix ./"
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "namas",
   "license": "MIT",
