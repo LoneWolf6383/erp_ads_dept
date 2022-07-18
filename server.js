@@ -29,8 +29,8 @@ app.use(helmet({
 }))
 app.use(express.json())
 
-let __dirname = dirname(fileURLToPath(import.meta.url))
-app.use(express.static(path.resolve(__dirname,'./client/build')))
+// let __dirname = dirname(fileURLToPath(import.meta.url))
+// app.use(express.static(path.resolve(__dirname,'./client/build')))
 
 app.use('/feedback/signin',authRoutes)
 app.use('/feedback/review',submitReviewRoutes)
