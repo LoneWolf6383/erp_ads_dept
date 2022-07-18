@@ -18,14 +18,9 @@
     "node": "18.6.0"
   },
   "scripts": {
-    "client-install": "npm install --prefix client",
-    "install-server":"npm install",
-    "install-dependencies":"npm run install-client && npm run install-server",  
     "start": "node server.js",
     "server": "nodemon server.js",
-    "install-client":"npm install --prefix client",
-    "build-client":"npm run build --prefix client",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run install-client && npm run build-client",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run install --prefix client && npm run build --prefix client",
     "client": "npm start --prefix client",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
   },
