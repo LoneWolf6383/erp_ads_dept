@@ -14,7 +14,7 @@ export const FeedbackChoice = () => {
         }
         const { data: res } = await axios.post('/initiateReviews', data)
         console.log(res);
-        window.location.replace("http://localhost:3000/studentDashboard/feedback?" + academicYear + "+" + semester)
+        window.location.replace("https://erp-ads-dept.herokuapp.com/studentDashboard/feedback?" + academicYear + "+" + semester)
     }
   return (
     <div style={{backgroundColor:'',width:'100%',height:'100%'}}>
