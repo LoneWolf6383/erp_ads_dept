@@ -3,6 +3,7 @@ import { NavBar } from '../components/NavBar'
 import { Banner } from '../components/banner'
 import {Tab,Row,Col,Nav} from 'react-bootstrap'
 import { FeedbackChoice } from '../components/feedbackChoice';
+import {StudentBackpack} from '../components/studentBackpack'
 export const StudentDashboard = () => {
     return (
         <div>
@@ -30,7 +31,7 @@ export const StudentDashboard = () => {
                       <Nav.Link eventKey="first">Feedback</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Others</Nav.Link>
+                      <Nav.Link eventKey="second">Backpack</Nav.Link>
                     </Nav.Item>
                   </Nav>
                 </Col>
@@ -40,7 +41,7 @@ export const StudentDashboard = () => {
                         <FeedbackChoice/>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      Under Development!
+                      <StudentBackpack/>
                     </Tab.Pane>
                   </Tab.Content>
                 </Col>

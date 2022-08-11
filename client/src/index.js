@@ -10,6 +10,8 @@ import {FacultyDashboard} from './pages/facultyDashboard'
 import { StudentDashboard } from './pages/studentDashboard';
 import { DisplayResults } from './components/displayResults';
 import { SuccessfulFeedback } from './components/successfulFeedback';
+import { FeedbackGenerator } from './components/feedbackGenerator';
+
 ReactDOM.render(
   <ThemeContextWrapper>
     <React.StrictMode>
@@ -22,6 +24,7 @@ ReactDOM.render(
           <Route path='/studentDashboard/feedback/success' element={ <SuccessfulFeedback/> } />
           <Route path='/facultyDashboard' element={<FacultyDashboard/>}/>
           <Route path='/facultyDashboard/results' element={<DisplayResults/>}/>
+          <Route path='/  ' element={<FeedbackGenerator/>}/>
         </Routes>
       </BrowserRouter>
     </React.StrictMode>

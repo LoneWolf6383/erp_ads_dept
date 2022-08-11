@@ -7,15 +7,15 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
-function createData(co,percentage) {
-  return { co,percentage };
+function createData(co,details) {
+  return {co,...details};
 }
 
 
 export default function MuiDenseTable(props) {
     const rows = [];
     Object.entries(props.percentage).map(co => {
-        rows.push(createData(co[0],co[1]))
+        return rows.push(createData(co[0],co[1]))
       })
   return (
     <TableContainer component={Paper}>
@@ -23,6 +23,7 @@ export default function MuiDenseTable(props) {
         <TableHead>
           <TableRow>
             <TableCell>CO</TableCell>
+            <TableCell align="right">User Rate</TableCell>
             <TableCell align="right">Percentage</TableCell>
           </TableRow>
         </TableHead>
@@ -35,7 +36,8 @@ export default function MuiDenseTable(props) {
                 <TableCell component="th" scope="row">
                 {row.co}
                 </TableCell>
-                <TableCell align="right">{row['percentage']}</TableCell>
+                <TableCell align="right">{row['1']+"/"+row['2']}</TableCell>
+                <TableCell align="right">{row['0']}</TableCell>
             </TableRow>
           ))}
         </TableBody>

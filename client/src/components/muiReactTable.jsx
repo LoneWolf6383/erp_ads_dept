@@ -216,7 +216,7 @@ export default function EnhancedTable( props ) {
           count+=1
         }
       })
-      percentage[ratings[0]] = (count*25)/props.len
+      percentage[ratings[0]] = [Math.round(((count)/props.len)*100),count,props.len]
       return percentage
     })
   

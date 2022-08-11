@@ -1,11 +1,11 @@
 /* eslint-disable no-lone-blocks */
 import './App.css';
 import  'react-bootstrap'
+import {LogInPage} from './pages/logInPage'
 // import { FeedBackForm } from './pages/feedBackForm';
 // import { FacultyLogin } from './components/SignUPIN/facultyLogin'
 // import { GenerateCOFeedback } from './components/generateCOFeedback'
 // import {DynDropDown} from './components/DynTabs/dynDropDown'
-import {LogInPage} from './pages/logInPage'
 // import { FeedbackGenerator } from './components/feedbackGenerator';
 // import {StudentDashboard} from './pages/studentDashboard'
 // import { FacultyDashboard } from './pages/facultyDashboard';
@@ -15,14 +15,13 @@ function App() {
   return (
     <>
       <LogInPage/>
-      {/* <FeedbackGenerator/> */}
-      {/* <StudentDashboard/>  */}
     </>
 
 );
 }
 export default App;
-
+{/* <FeedbackGenerator/> */}
+{/* <StudentDashboard/>  */}
 {/* <PolarAreaChart/> */}
 {/* <FacultyDashboard/> */}
 {/* <StudentLogInPage/> */}

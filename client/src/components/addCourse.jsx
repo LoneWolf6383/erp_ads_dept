@@ -9,12 +9,14 @@ export const AddCourse = () => {
   const [regulation, setRegulation] = useState('')
 
     const handleAddCourse = async () =>{
-    var co = (document.getElementById('co_input').value).split('\n')
-    for (let i = 0; i < co.length; i++) {
+      var co = (document.getElementById('co_input').value).split('•')
+      console.log(co);
+      for (let i = 0; i < co.length; i++) {
         if (co[i].includes('\n'))
-            co[i]=co[i].split('\n')[0]
-        }
+        co[i]=co[i].split('\n')[0]
+      }
       co.splice(0, 1)
+      console.log(co);
       const data = {
         courseName: courseName,
         courseId: courseId,
@@ -33,7 +35,7 @@ export const AddCourse = () => {
             <td style={{ flex: '1' }}>
                 <div class="">
                     <label for="" class="form-label">
-                    <input type="text" onChange={(e)=> setCourseName(e.target.value)} class="form-control" name="" id=""  placeholder=""/>
+                    <input type="text" onChange={(e)=> setCourseName(e.target.value)} class="form-control"  value="S"/>
                     </label>
                 </div>
             </td>
@@ -43,7 +45,7 @@ export const AddCourse = () => {
             <td style={{ flex: '1' }}>
                 <div class="">
                     <label for="" class="form-label">
-                    <input type="text" onChange={(e)=> setCourseId(e.target.value)} class="form-control" name="" id=""  placeholder=""/>
+                    <input type="text" onChange={(e)=> setCourseId(e.target.value)} class="form-control"  value="19AD401"/>
                     </label>
                 </div>
             </td>
@@ -53,7 +55,7 @@ export const AddCourse = () => {
           <td style={{ flex: '1' }}>
                 <div class="">
                     <label for="" class="form-label">
-                    <input type="text" onChange={(e)=> setRegulation(e.target.value)} class="form-control" name="" id=""  placeholder="Example : 19"/>
+                    <input type="text" onChange={(e)=> setRegulation(e.target.value)} class="form-control" placeholder="Example : 19" value="19"/>
                     </label>
                 </div>
           </td>
@@ -62,7 +64,11 @@ export const AddCourse = () => {
           <td style={{flex:'1'}}><label>Enter CO's:</label></td>
           <td style={{ flex: '1' }}>
               <div>
-                <textarea class="form-control" name="" id='co_input' rows="5" cols="58" placeholder='Just Copy paste them from syllabus pdf'></textarea>
+                <textarea class="form-control" id='co_input' rows="5" cols="58" placeholder='Just Copy paste them from syllabus pdf' value="• Identify the sampling distributions in the given data.
+• Conduct suitable testing for statistical experiments. 
+• Perform regression analysis and prediction
+• Develop and apply various classification models.
+• Work with clustering techniques."></textarea>
               </div>
           </td>
         </tr>
