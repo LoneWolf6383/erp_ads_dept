@@ -7,7 +7,7 @@ export const Banner = () => {
             backgroundColor:'#0088ff'
         }}>
             <img
-            src={require('../images/mepcoBanner.jpg')}
+            src={require('../../../images/mepcoBanner.jpg')}
             style={{
                 backgroundColor: '#0088ff',
                 width: '100%',

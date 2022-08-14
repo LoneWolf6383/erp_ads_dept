@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 import axios from 'axios'
 import React, { useState, useEffect ,useCallback} from 'react'
-import { StarRating } from './starRating'
+import { StarRating } from '../../Student/starRating'
 import {Box, Tab, Tabs} from '@mui/material'
 import { TabContext, TabPanel } from '@mui/lab'
-import { PolarAreaChart } from './GraphPlot/polarAreaChart'
+import { PolarAreaChart } from '../../GraphPlot/polarAreaChart'
 import { Button } from 'react-bootstrap'
 export const DynTabs = () => {
   const [selectedTab, setSelectedTab] = useState('0')

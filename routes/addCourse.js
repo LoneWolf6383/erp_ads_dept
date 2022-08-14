@@ -15,7 +15,7 @@ router.post('/', async (req, res) => {
         }
     }
     catch (error) {
-        return res.send('Error Occurred while adding course')
+        return res.status(500).send('Error Occurred while adding course',error)
     }
 })
 

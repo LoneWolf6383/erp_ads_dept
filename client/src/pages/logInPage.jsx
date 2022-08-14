@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import './logInPageCSS.css'
-import CaptchaBOX from '../components/captchaBOX'
+import CaptchaBOX from '../components/LoginPage/captchaBOX'
 import ThumbDownOffAltIcon from '@mui/icons-material/ThumbDownOffAlt';
 import ThumbUpOffAltIcon from '@mui/icons-material/ThumbUpOffAlt';
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Banner } from './banner'
-import { NavBar } from './NavBar'
+import { Banner } from '../Common/ForAllPages/banner'
+import { NavBar } from '../Common/ForAllPages/navBar'
 
 export const SuccessfulFeedback = () => {
   return (

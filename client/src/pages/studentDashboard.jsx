@@ -1,9 +1,10 @@
 import React from 'react'
-import { NavBar } from '../components/NavBar'
-import { Banner } from '../components/banner'
+import { NavBar } from '../components/Common/ForAllPages/navBar'
+import { Banner } from '../components/Common/ForAllPages/banner'
 import {Tab,Row,Col,Nav} from 'react-bootstrap'
-import { FeedbackChoice } from '../components/feedbackChoice';
-import {StudentBackpack} from '../components/studentBackpack'
+import { FeedbackChoice } from '../components/Student/feedbackChoice';
+import {BackpackWrapper} from '../components/Common/Backpack/backpackWrapper'
+
 export const StudentDashboard = () => {
     return (
         <div>
@@ -28,20 +29,20 @@ export const StudentDashboard = () => {
                 <Col sm={2}>
                   <Nav variant="pills" className="flex-column">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Feedback</Nav.Link>
+                      <Nav.Link eventKey="first">Backpack</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Backpack</Nav.Link>
+                      <Nav.Link eventKey="second">Feedback</Nav.Link>
                     </Nav.Item>
                   </Nav>
                 </Col>
                 <Col sm={7} style={{width:'80%',backgroundColor:''}}>
                   <Tab.Content>
                     <Tab.Pane eventKey="first">
-                        <FeedbackChoice/>
+                        <BackpackWrapper/>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <StudentBackpack/>
+                        <FeedbackChoice/>
                     </Tab.Pane>
                   </Tab.Content>
                 </Col>

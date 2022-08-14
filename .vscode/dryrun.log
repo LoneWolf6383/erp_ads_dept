@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/namachu/Documents/programming/College Projects/erp_ads_dept'
+make: Leaving directory '/home/namachu/Documents/programming/College Projects/erp_ads_dept'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

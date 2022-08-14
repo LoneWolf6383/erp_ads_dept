@@ -8,10 +8,10 @@ import ThemeContextWrapper from './Themes/themeContextWrapper';
 import { LogInPage } from './pages/logInPage'
 import {FacultyDashboard} from './pages/facultyDashboard'
 import { StudentDashboard } from './pages/studentDashboard';
-import { DisplayResults } from './components/displayResults';
-import { SuccessfulFeedback } from './components/successfulFeedback';
-import { FeedbackGenerator } from './components/feedbackGenerator';
-
+import { DisplayResults } from './components/Faculty/displayResults';
+import { SuccessfulFeedback } from './components/Student/successfulFeedback';
+import { FeedbackGenerator } from './components/Common/feedbackGenerator';
+import {CourseBackpack} from './components/Common/Backpack/courseBackpack'
 ReactDOM.render(
   <ThemeContextWrapper>
     <React.StrictMode>
@@ -24,7 +24,8 @@ ReactDOM.render(
           <Route path='/studentDashboard/feedback/success' element={ <SuccessfulFeedback/> } />
           <Route path='/facultyDashboard' element={<FacultyDashboard/>}/>
           <Route path='/facultyDashboard/results' element={<DisplayResults/>}/>
-          <Route path='/  ' element={<FeedbackGenerator/>}/>
+          <Route path='/feedbackGenerator' element={<FeedbackGenerator/>}/>
+          <Route path='/courseBackpack' element={<CourseBackpack/>}/>
         </Routes>
       </BrowserRouter>
     </React.StrictMode>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav, Navbar, Container,Button, InputGroup } from 'react-bootstrap'
-import { ThemeContext, themes } from '../Themes/themeContext';
+import { ThemeContext, themes } from '../../../Themes/themeContext';
 
 
 export const NavBar = () => {

@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import {Button} from 'react-bootstrap'
 import axios from 'axios'
-import { DynDropDown } from './dynDropDown'
+import { DynDropDown } from '../Common/DropdownChoice/dynDropDown'
 export const FeedbackChoice = () => {
     const [academicYear, setAcademicYear] = useState('')
     const [semester, setSemester] = useState('')

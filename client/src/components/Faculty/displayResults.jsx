@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import axios from 'axios'
-import {NavBar} from './NavBar'
-import { Banner } from './banner'
+import {NavBar} from '../Common/ForAllPages/navBar'
+import { Banner } from '../Common/ForAllPages/banner'
 import  MuiReactTable from './muiReactTable'
 export const DisplayResults = () => {
     const [content, setContent] = useState([])
