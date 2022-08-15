@@ -12,7 +12,7 @@ export const FeedbackChoice = () => {
             academicYear: academicYear,
             semester: semester
         }
-        const { data: res } = await axios.post('/initiateReviews', data)
+        const { data: res } = await axios.post(process.env.REACT_APP_NODEJS_URL+'/initiateReviews', data)
         console.log(res);
         window.location.replace("http://localhost:3000/studentDashboard/feedback?" + academicYear + "+" + semester)
     }

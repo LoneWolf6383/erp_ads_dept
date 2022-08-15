@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 15 00:33:04 2022
+# Make data base, printed on Mon Aug 15 13:06:57 2022
 
 # Variables
 
@@ -63,7 +61,7 @@ MAKEFLAGS = pqrR
 # makefile
 CURDIR := /home/namachu/Documents/programming/College Projects/erp_ads_dept
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -85,7 +83,7 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 42313
+VSCODE_PID = 58343
 # environment
 XDG_SESSION_TYPE = x11
 # environment
@@ -93,7 +91,7 @@ CUDA_PATH = /opt/cuda
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/Namachu:@/tmp/.ICE-unix/2449,unix/Namachu:/tmp/.ICE-unix/2449
+SESSION_MANAGER = local/Namachu:@/tmp/.ICE-unix/3903,unix/Namachu:/tmp/.ICE-unix/3903
 # automatic
 *F = $(notdir $*)
 # environment
@@ -129,7 +127,7 @@ MOTD_SHOWN = pam
 # environment
 LC_TIME = en_IN
 # environment
-INVOCATION_ID = bb73dc9b1d2e47409940895a7133ba28
+INVOCATION_ID = 087d5d0639b549399267734518f6a32f
 # environment
 LC_TELEPHONE = en_IN
 # automatic
@@ -159,7 +157,7 @@ XDG_VTNR = 1
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 2817
+SYSTEMD_EXEC_PID = 4112
 # environment
 DISPLAY = :0
 # environment
@@ -171,7 +169,7 @@ MAKE_VERSION := 4.3
 # environment
 KDE_SESSION_UID = 1000
 # environment
-MANAGERPID = 2031
+MANAGERPID = 3559
 # environment
 LC_MEASUREMENT = en_IN
 # environment
@@ -181,7 +179,7 @@ LC_PAPER = en_IN
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-JOURNAL_STREAM = 8:33883
+JOURNAL_STREAM = 8:37483
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -213,8 +211,6 @@ VSCODE_CLI = 1
 # environment
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
-DEBUG = WARN
-# environment
 KDE_SESSION_VERSION = 5
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
@@ -223,7 +219,7 @@ KDE_FULL_SESSION = true
 # environment
 LC_IDENTIFICATION = en_IN
 # variable set hash-table stats:
-# Load=105/1024=10%, Rehash=0, Collisions=7/132=5%
+# Load=104/1024=10%, Rehash=0, Collisions=7/131=5%
 
 # Pattern-specific Variable Values
 
@@ -282,14 +278,16 @@ GNUmakefile:
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
- 
 
 # strcache buffers: 1 (0) / strings = 27 / storage = 256 B / avg = 9 B
 # current buf: size = 8162 B / used = 256 B / count = 27 / avg = 9 B
 
 # strcache performance: lookups = 30 / hit rate = 10%
 # hash-table stats:
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 # Load=27/8192=0%, Rehash=0, Collisions=0/30=0%
-# Finished Make data base on Mon Aug 15 00:33:04 2022
+# Finished Make data base on Mon Aug 15 13:06:57 2022
 
  

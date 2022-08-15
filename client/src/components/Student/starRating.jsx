@@ -17,7 +17,7 @@ const StarRating = (props) => {
           semester:pathname.split('+')[1],
           review:ratings
         }
-        await axios.post('/feedback/review', val)
+        await axios.post(process.env.REACT_APP_NODEJS_URL+'/feedback/review', val)
         setDone(true)
       } catch (error) {
         console.log(error);

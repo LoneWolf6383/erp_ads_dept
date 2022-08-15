@@ -15,7 +15,7 @@ export const GenerateCOFeedback = () => {
       courseId: courseDetails.split('-')[1],
       courseName: courseDetails.split('-')[0],
     }
-    const { data: res } = await axios.post('addFeedBack', data)
+    const { data: res } = await axios.post(process.env.REACT_APP_NODEJS_URL+'/addFeedBack', data)
     setResponse(res.message)
   }
   return (

@@ -20,7 +20,7 @@ export const DynTabs = () => {
         'username': window.sessionStorage.getItem('username'),
         'courseName': courseName
       }
-        const { data: res } = await axios.post('/isReviewed', data)
+        const { data: res } = await axios.post(process.env.REACT_APP_NODEJS_URL+'/isReviewed', data)
         if (res === true) {
           setReviewed(true)
         } else {
@@ -87,7 +87,7 @@ export const DynTabs = () => {
         academicYear: pathname.split('+')[0] ,
         semester:pathname.split('+')[1]
       }
-      const { data: res } = await axios.post('/getFeedbackPattern',data)
+      const { data: res } = await axios.post(process.env.REACT_APP_NODEJS_URL+'/getFeedbackPattern',data)
       setContent(res)
     }
     getContent()

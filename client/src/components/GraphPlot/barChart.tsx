@@ -33,10 +33,10 @@ export const options = {
 };
 
 
-export function BarChart(props) {
+export function BarChart(props:any) {
   const labels = ['CO1','CO2','CO3','CO4','CO5']
-  const dataset = []
-  Object.entries(props.percentage).map(co => {
+  const dataset:any = []
+  Object.entries(props.percentage).map((co:any) => {
     return dataset.push(co[1][0])
   })
   

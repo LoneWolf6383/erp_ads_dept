@@ -6,8 +6,8 @@ import { Tab, Row, Col, Nav } from "react-bootstrap";
 import { AddCourse } from "../components/Faculty/addCourse";
 import { ResultChoice } from "../components/Faculty/resultChoice";
 import { Backpack } from "../components/Common/Backpack/backpack";
-
 export const FacultyDashboard = () => {
+  console.log(process.env.REACT_APP_NODEJS_URL);
   return (
     <div>
       <NavBar />

@@ -5,7 +5,7 @@ export const DynDropDown = (props) => {
   const [courseDetails, setcourseDetails] = useState([])
   useEffect(() => {
     const getCourseNames = async () => {
-      const { data: res } = await axios.post('getAllCourseDetails')
+      const { data: res } = await axios.post(process.env.REACT_APP_NODEJS_URL+'/getAllCourseDetails')
       setcourseDetails(res)
     }
     getCourseNames()

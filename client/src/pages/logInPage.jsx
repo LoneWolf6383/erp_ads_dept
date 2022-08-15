@@ -14,9 +14,8 @@ export const LogInPage = () => {
       event.preventDefault()
         const data = { username, password ,isVerified }
         try {
-            const url = '/feedback/signin'
             window.sessionStorage.setItem('username', username)
-            const res = await axios.post(url, data)
+            const res = await axios.post(process.env.REACT_APP_NODEJS_URL+'/feedback/signin', data)
             if(res.data==='User Not Available'){
                 document.getElementById('rollNo_ip').style.border='3px solid'
                 document.getElementById('rollNo_ip').style.borderColor='red'

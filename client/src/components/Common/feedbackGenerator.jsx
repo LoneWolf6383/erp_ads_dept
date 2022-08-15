@@ -11,7 +11,7 @@ export const FeedbackGenerator = () => {
             academicYear: academicYear,
             semester: semester
         }
-        await axios.post('/feedbackGenerator', data)
+        await axios.post(process.env.REACT_APP_NODEJS_URL+'/feedbackGenerator', data)
     }
   return (
     <div style={{backgroundColor:'',width:'100%',height:'100%'}}>

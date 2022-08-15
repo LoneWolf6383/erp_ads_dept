@@ -20,7 +20,7 @@ export const AddCourse = () => {
         regulation: regulation,
         CO:co.splice(0, 1)
        }
-    const { data: res } = await axios.post('/addCourse',data)
+    const { data: res } = await axios.post(process.env.REACT_APP_NODEJS_URL+'/addCourse',data)
     setResponse(res.message)
     }
   return (

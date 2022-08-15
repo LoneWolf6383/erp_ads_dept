@@ -13,7 +13,7 @@ export const DisplayResults = () => {
             academicYear: pathname.split('+')[0],
             semester:pathname.split('+')[1]
           }
-            const { data: res } = await axios.post('/getResults', data)
+            const { data: res } = await axios.post(process.env.REACT_APP_NODEJS_URL+'/getResults', data)
             const review = {}
             setLen(res.length)  
             res.forEach(user => {

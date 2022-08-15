@@ -19,7 +19,7 @@ import Tooltip from '@mui/material/Tooltip';
 import DeleteIcon from '@mui/icons-material/Delete';
 import FilterListIcon from '@mui/icons-material/FilterList';
 import { visuallyHidden } from '@mui/utils';
-import { BarChart } from '../GraphPlot/barChart.tsx'
+import { BarChart } from '../GraphPlot/barChart.jsx'
 import MuiDenseTable from './muiDenseTable'
 
 

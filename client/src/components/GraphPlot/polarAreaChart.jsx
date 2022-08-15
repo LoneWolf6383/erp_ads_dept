@@ -14,7 +14,7 @@ export const PolarAreaChart = (props) => {
     useEffect(() => {
         const getRatings = async () => {
             const data = { 'username': window.sessionStorage.getItem('username'), 'courseName': props.course }
-            const res = await axios.post('/getRatings', data)
+            const res = await axios.post(process.env.REACT_APP_NODEJS_URL+'/getRatings', data)
             // console.log(res.data)
             setRatings(res.data)
         }

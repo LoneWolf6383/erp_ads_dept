@@ -12,7 +12,7 @@ export const SubmitReview = (props) => {
                 review:props.ratings
             }
             const data = []
-            // const { data: res } = await axios.post('feedback/review', val)
+            // const { data: res } = await axios.post(process.env.REACT_APP_NODEJS_URL+'/feedback/review', val)
             } catch (error) {
                 if (error.response && error.response.status >= 400 && error.response.status <= 500) {
                     setError(error.response.data.message)
