@@ -1,10 +1,11 @@
 import React from 'react'
-import {Backpack} from './backpack'
+import { BottomAppBar } from './bottomAppBar'
+
 
 export const BackpackWrapper = (props) => {
   return (
         <div>
-            <Backpack/>
+            <BottomAppBar />
         </div>
   )
 }

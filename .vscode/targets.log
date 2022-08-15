@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 15 13:06:57 2022
+# Make data base, printed on Mon Aug 15 22:08:30 2022
 
 # Variables
 
@@ -83,7 +85,7 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 58343
+VSCODE_PID = 4749
 # environment
 XDG_SESSION_TYPE = x11
 # environment
@@ -91,7 +93,7 @@ CUDA_PATH = /opt/cuda
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/Namachu:@/tmp/.ICE-unix/3903,unix/Namachu:/tmp/.ICE-unix/3903
+SESSION_MANAGER = local/Namachu:@/tmp/.ICE-unix/1625,unix/Namachu:/tmp/.ICE-unix/1625
 # automatic
 *F = $(notdir $*)
 # environment
@@ -127,7 +129,7 @@ MOTD_SHOWN = pam
 # environment
 LC_TIME = en_IN
 # environment
-INVOCATION_ID = 087d5d0639b549399267734518f6a32f
+INVOCATION_ID = c7b0c646bd5349d0b6fc74f52b5aad01
 # environment
 LC_TELEPHONE = en_IN
 # automatic
@@ -157,7 +159,7 @@ XDG_VTNR = 1
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 4112
+SYSTEMD_EXEC_PID = 4457
 # environment
 DISPLAY = :0
 # environment
@@ -169,7 +171,7 @@ MAKE_VERSION := 4.3
 # environment
 KDE_SESSION_UID = 1000
 # environment
-MANAGERPID = 3559
+MANAGERPID = 1275
 # environment
 LC_MEASUREMENT = en_IN
 # environment
@@ -179,7 +181,7 @@ LC_PAPER = en_IN
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-JOURNAL_STREAM = 8:37483
+JOURNAL_STREAM = 8:15860
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -227,9 +229,9 @@ LC_IDENTIFICATION = en_IN
 
 # Directories
 
-# . (device 40, inode 346978): 19 files, no impossibilities.
+# . (device 40, inode 346978): 20 files, no impossibilities.
 
-# 19 files, no impossibilities in 1 directories.
+# 20 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -279,15 +281,13 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 27 / storage = 256 B / avg = 9 B
-# current buf: size = 8162 B / used = 256 B / count = 27 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 28 / storage = 261 B / avg = 9 B
+# current buf: size = 8162 B / used = 261 B / count = 28 / avg = 9 B
 
-# strcache performance: lookups = 30 / hit rate = 10%
+# strcache performance: lookups = 31 / hit rate = 9%
 # hash-table stats:
  
-make: *** No rule to make target 'all'.  Stop.
-
-# Load=27/8192=0%, Rehash=0, Collisions=0/30=0%
-# Finished Make data base on Mon Aug 15 13:06:57 2022
+# Load=28/8192=0%, Rehash=0, Collisions=0/31=0%
+# Finished Make data base on Mon Aug 15 22:08:30 2022
 
  

@@ -5,7 +5,7 @@ import { NavBar } from "../components/Common/ForAllPages/navBar";
 import { Tab, Row, Col, Nav } from "react-bootstrap";
 import { AddCourse } from "../components/Faculty/addCourse";
 import { ResultChoice } from "../components/Faculty/resultChoice";
-import { Backpack } from "../components/Common/Backpack/backpack";
+import { BackpackWrapper } from '../components/Common/Backpack/backpackWrapper'
 export const FacultyDashboard = () => {
   console.log(process.env.REACT_APP_NODEJS_URL);
   return (
@@ -31,12 +31,12 @@ export const FacultyDashboard = () => {
             <Col sm={2}>
               <Nav variant="pills" className="flex-column">
                 <Nav.Item>
-                  <Nav.Link eventKey="first">
-                    Generate Course CO Feedback
-                  </Nav.Link>
+                  <Nav.Link eventKey="first">BackPack</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">BackPack</Nav.Link>
+                  <Nav.Link eventKey="second">
+                    Generate Course CO Feedback
+                  </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="third">Add Course</Nav.Link>
@@ -49,10 +49,10 @@ export const FacultyDashboard = () => {
             <Col sm={7} style={{ width: "80%", backgroundColor: "" }}>
               <Tab.Content>
                 <Tab.Pane eventKey="first">
-                  <GenerateCOFeedback />
+                  <BackpackWrapper />
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                  <Backpack />
+                  <GenerateCOFeedback />
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
                   <AddCourse />
