@@ -32,7 +32,6 @@ export const options = {
   },
 };
 
-
 export function BarChart(props:any) {
   const labels = ['CO1','CO2','CO3','CO4','CO5']
   const dataset:any = []

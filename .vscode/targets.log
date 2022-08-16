@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 15 22:08:30 2022
+# Make data base, printed on Tue Aug 16 11:47:05 2022
 
 # Variables
 
@@ -25,7 +23,7 @@ LC_NAME = en_IN
 # environment
 LC_NUMERIC = en_IN
 # environment
-VSCODE_CWD = /home/namachu
+VSCODE_CWD = /home/namachu/Documents/College/5thSemLab
 # environment
 LC_ADDRESS = en_IN
 # default
@@ -85,7 +83,7 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 4749
+VSCODE_PID = 5322
 # environment
 XDG_SESSION_TYPE = x11
 # environment
@@ -93,7 +91,7 @@ CUDA_PATH = /opt/cuda
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/Namachu:@/tmp/.ICE-unix/1625,unix/Namachu:/tmp/.ICE-unix/1625
+SESSION_MANAGER = local/Namachu:@/tmp/.ICE-unix/2407,unix/Namachu:/tmp/.ICE-unix/2407
 # automatic
 *F = $(notdir $*)
 # environment
@@ -129,7 +127,7 @@ MOTD_SHOWN = pam
 # environment
 LC_TIME = en_IN
 # environment
-INVOCATION_ID = c7b0c646bd5349d0b6fc74f52b5aad01
+INVOCATION_ID = c4aa64f8d39a4c2a8fab880fb615a257
 # environment
 LC_TELEPHONE = en_IN
 # automatic
@@ -159,7 +157,7 @@ XDG_VTNR = 1
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 4457
+SYSTEMD_EXEC_PID = 2794
 # environment
 DISPLAY = :0
 # environment
@@ -171,7 +169,7 @@ MAKE_VERSION := 4.3
 # environment
 KDE_SESSION_UID = 1000
 # environment
-MANAGERPID = 1275
+MANAGERPID = 2016
 # environment
 LC_MEASUREMENT = en_IN
 # environment
@@ -181,7 +179,7 @@ LC_PAPER = en_IN
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-JOURNAL_STREAM = 8:15860
+JOURNAL_STREAM = 8:32999
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -287,7 +285,9 @@ GNUmakefile:
 # strcache performance: lookups = 31 / hit rate = 9%
 # hash-table stats:
  
+make: *** No rule to make target 'all'.  Stop.
+
 # Load=28/8192=0%, Rehash=0, Collisions=0/31=0%
-# Finished Make data base on Mon Aug 15 22:08:30 2022
+# Finished Make data base on Tue Aug 16 11:47:05 2022
 
  

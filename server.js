@@ -13,6 +13,8 @@ const isReviewed = require('./utilities/isReviewed')
 const initiateReviews = require('./utilities/initiateReviews')
 const getResults = require('./utilities/getResults')
 const feedbackGenerator = require('./utilities/feedbackGenerator')
+const addCourseToBackpack = require('./routes/addCourseToBackpack')
+
 const path = require('path');
 var bodyParser = require('body-parser');
 const { dirname } = require('path')
@@ -41,6 +43,7 @@ app.use('/isReviewed',isReviewed)
 app.use('/initiateReviews',initiateReviews)
 app.use('/getResults', getResults)
 app.use('/feedbackGenerator', feedbackGenerator)
+app.use('/addCourseToBackpack', addCourseToBackpack)
 
 app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname,'./client/build','index.html'))

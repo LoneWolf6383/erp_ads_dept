@@ -19,6 +19,7 @@ import { Backpack } from "./backpack";
 import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 import TextField from '@mui/material/TextField';
 import { Button } from "@mui/material";
+import axios from 'axios'
 const messages = [
   //   {
   //     id: 1,
@@ -78,6 +79,10 @@ const StyledFab = styled(Fab)({
 });
 
 export function BottomAppBar() {
+  const [courseName, setCourseName] = React.useState('')
+  const [courseId, setCourseId] = React.useState('')
+  const [batch, setBatch] = React.useState('')
+
   const [state, setState] = React.useState({
     top: false,
     left: false,
@@ -86,16 +91,22 @@ export function BottomAppBar() {
   });
 
   const toggleDrawer = (anchor, open) => (event) => {
-    if (
-      event.type === "keydown" &&
-      (event.key === "Tab" || event.key === "Shift")
-    ) {
+    if ( event.type === "keydown" && (event.key === "Tab" || event.key === "Shift") ) {
       return;
     }
-
     setState({ ...state, [anchor]: open });
   };
-  const addCourse = () => { };
+
+  const addCourse = async () => {
+    const data = {
+      courseName: courseName,
+      courseId: courseId,
+      batch:batch
+    }  
+    const {data:res} = axios.post(process.env.REACT_APP_NODEJS_URL+'/addCourseToBackpack',data)
+
+  };
+
   return (
     <React.Fragment>
       <CssBaseline />
@@ -153,20 +164,20 @@ export function BottomAppBar() {
                 open={state["bottom"]}
                 onClose={toggleDrawer("bottom", false)}
               >
-                <Typography>Add A Course</Typography>
+                <Typography variant="h6">Add Course</Typography>
                 <Box sx={{ width: 'auto'}} role="presentation">
                   <List sx={{display:'flex',flexDirection:'row',justifyContent:'flex-start'}}>
                     <ListItem>
-                    <TextField required label="Course   Name" variant="outlined" />  
+                    <TextField value={courseName} onChange={(e)=>setCourseName(e.target.value)} required label="Course Name" variant="outlined" />  
                     </ListItem>
                     <ListItem >
-                    <TextField required label="Course Id: 19AD451" variant="outlined" />  
+                    <TextField value={courseId} onChange={(e)=>setCourseId(e.target.value)} required label="Course Id : 19AD451" variant="outlined" />  
                     </ListItem>
                     <ListItem >
-                    <TextField required label="Course Batch: 2020-24" variant="outlined" />  
+                    <TextField value={batch} onChange={(e)=>setBatch(e.target.value)} required label="Course Batch : 2020-24" variant="outlined" />  
                     </ListItem>
                     <ListItem >
-                      <Button variant="contained" color="success" >Submit</Button>
+                      <Button variant="contained" color="success" onClick={addCourse}>Submit</Button>
                     </ListItem>
                   </List>
                   <Divider />
