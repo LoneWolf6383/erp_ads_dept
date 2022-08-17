@@ -4,11 +4,12 @@ import { Form } from 'react-bootstrap'
 export const DynDropDown = (props) => {
   const [courseDetails, setcourseDetails] = useState([])
   useEffect(() => {
-    const getCourseNames = async () => {
-      const { data: res } = await axios.post(process.env.REACT_APP_NODEJS_URL+'/getAllCourseDetails')
+    const getCourseDetails = async () => {
+      const data = {flag:'Dropdown'}
+      const { data: res } = await axios.post(process.env.REACT_APP_NODEJS_URL+'/getAllCourseDetails',data)
       setcourseDetails(res)
     }
-    getCourseNames()
+    getCourseDetails()
   },[])
   var final = []
   var years = ['Select', '2020-21', '2021-22', '2022-23', '2023-24']

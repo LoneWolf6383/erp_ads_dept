@@ -10,13 +10,14 @@ export const Backpack = (props) => {
   }
   return (
     <div style={{padding:'5px'}}>
-      <Card sx={{maxWidth:300,maxHeight:200}}>
+      <Card sx={{width:300,height:200}}>
         <CardActionArea onClick={handleClick}>
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              {props.courseName}Course Name
+          <CardContent align='right'>
+            <Typography  variant="h7" component="div">
+              {props.courseName}
             </Typography>
-            <Typography variant="body2" color="text.secondary">Write here
+            <Typography variant="overline" noWrap={false} color="text.secondary">
+              {props.courseId}
             </Typography>
           </CardContent>
         </CardActionArea>

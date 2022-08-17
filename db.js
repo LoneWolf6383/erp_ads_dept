@@ -5,7 +5,6 @@ const mongoUrl='mongodb://127.0.0.1:27017/aids_feedback_form_db'
 
 module.exports = () => {
     try {
-        console.log(process.env.REACT_APP_MONGODB_URL);
         // const client = new MongoClient(mongoUrl);
         mongoose.connect(mongoUrl, {
             useNewUrlParser:true,

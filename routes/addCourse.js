@@ -5,15 +5,14 @@ const { route } = require('./addFeedback')
 router.post('/', async (req, res) => {
     try {
         if(await Course.findOne({...req.body})){
-            console.log(req.body,'if');
             return res.status(200).send({ message:'Course Already Exists.'})
         }else {
             await new Course({...req.body}).save()
-            console.log(req.body,'else');
             return res.status(200).send({ message:'Course Added Successfully.'})
         }
     }
     catch (error) {
+        console.log(error)
         return res.status(500).send('Error Occurred while adding course',error)
     }
 })

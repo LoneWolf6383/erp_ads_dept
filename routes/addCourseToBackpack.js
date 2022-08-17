@@ -3,13 +3,10 @@ const {CourseBackpack} = require('../models/courseBackpackModel')
 
 router.post('/', async (req, res) => {
     try {
-        console.log('before if')
-        console.log(req.body)
-        if (await CourseBackpack.findOne({ couresId: req.body.couresId })){
-            return res.status(500).send({message:'Course Already Exists'})
+        if (await CourseBackpack.findOne({ ...req.body })){
+            return res.status(200).send({message:'Course Already Exists'})
         }else {
             await new CourseBackpack({...req.body}).save()
-            console.log('inside else')
             return res.status(200).send({message:'Course Added to Backpack Successfully'})
         }
     } catch (error) {
@@ -18,4 +15,4 @@ router.post('/', async (req, res) => {
     }
 })
 
-module.exports=router
+module.exports=router 

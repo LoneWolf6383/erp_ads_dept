@@ -7,7 +7,6 @@ import { AddCourse } from "../components/Faculty/addCourse";
 import { ResultChoice } from "../components/Faculty/resultChoice";
 import { BackpackWrapper } from '../components/Common/Backpack/backpackWrapper'
 export const FacultyDashboard = () => {
-  console.log(process.env.REACT_APP_NODEJS_URL);
   return (
     <div>
       <NavBar />
