@@ -10,8 +10,8 @@ export const Backpack = (props) => {
     window.location.replace('http://localhost:3000/courseBackpack')
   }
   return (
-    <div style={{padding:'5px'}}>
-      <Card sx={{width:300,height:200}}>
+    <div style={{padding:'15px'}}>
+      <Card sx={{width:300,height:100}}>
         <CardActionArea onClick={handleClick}>
           <CardContent align='right'>
             <Typography  variant="h7" component="div">

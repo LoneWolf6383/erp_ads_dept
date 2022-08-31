@@ -19,7 +19,6 @@ export const CourseBackpack = () => {
   };
   const handleDownload = (e) => {
     e.preventDefault();
-		let downloadFilename = filename;
 		axios({
 			method: "GET",
 			url: process.env.REACT_APP_NODEJS_URL+"/file",
@@ -28,10 +27,9 @@ export const CourseBackpack = () => {
 				'file': filename
 			}
 		}).then(res => {
-				FileSaver.saveAs(res.data, downloadFilename);
-				console.log(res);
+				FileSaver.saveAs(res.data, filename);
 		}).then(() => {
-			console.log("File Downloading Completed");
+			alert("File Downloading Completed");
 		});
   };
 
