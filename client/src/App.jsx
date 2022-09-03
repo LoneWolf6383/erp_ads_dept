@@ -14,10 +14,10 @@ import { FacultyDashboard } from './pages/facultyDashboard';
 // import { StudentBackpack } from './components/studentBackpack'
 function App() { 
   return (
-    <>
+    <div style={{height:'100%'}}>
       {/* <LogInPage/> */}
-      <FacultyDashboard/>
-    </>
+      <FacultyDashboard />
+    </div>
 
 );
 }

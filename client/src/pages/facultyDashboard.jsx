@@ -8,7 +8,7 @@ import { ResultChoice } from "../components/Faculty/resultChoice";
 import { BackpackWrapper } from '../components/Common/Backpack/backpackWrapper'
 export const FacultyDashboard = () => {
   return (
-    <div>
+    <div style={{height:'100%'}}>
       <NavBar />
       <Banner />
       <div style={{ backgroundColor: "", height: "100%", width: "100%" }}>
@@ -24,8 +24,8 @@ export const FacultyDashboard = () => {
           Faculty DashBoard
         </h5>
       </div>
-      <div style={{ color: "black" }}>
-        <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+      <div style={{ color: "black" , height: "100%"}}>
+        <Tab.Container id="left-tabs-example" defaultActiveKey="first" style={{height:'100%'}}>
           <Row>
             <Col sm={2}>
               <Nav variant="pills" className="flex-column">
@@ -45,8 +45,8 @@ export const FacultyDashboard = () => {
                 </Nav.Item>
               </Nav>
             </Col>
-            <Col sm={7} style={{ width: "80%", backgroundColor: "" }}>
-              <Tab.Content>
+            <Col sm={7} style={{ width: "80%", backgroundColor: "",height: "100%" }}>
+              <Tab.Content style={{height:'100%'}}>
                 <Tab.Pane eventKey="first">
                   <BackpackWrapper />
                 </Tab.Pane>

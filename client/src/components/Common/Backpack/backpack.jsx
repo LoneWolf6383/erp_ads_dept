@@ -10,15 +10,15 @@ export const Backpack = (props) => {
     window.location.replace('http://localhost:3000/courseBackpack')
   }
   return (
-    <div style={{padding:'15px'}}>
-      <Card sx={{width:300,height:100}}>
+    <div style={{ padding: '15px' }}>
+      <Card sx={{width:'30%',height:'100%'}}>
         <CardActionArea onClick={handleClick}>
           <CardContent align='right'>
-            <Typography  variant="h7" component="div">
-              {props.courseName}
+            <Typography  variant="h6" component="div">
+              {props.courseDetails.split('-')[0]}
             </Typography>
             <Typography variant="overline" noWrap={false} color="text.secondary">
-              {props.courseId}
+              {props.courseDetails.split('-')[1]}
             </Typography>
           </CardContent>
         </CardActionArea>

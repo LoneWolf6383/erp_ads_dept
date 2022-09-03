@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import { Backpack } from "./backpack";
 import axios from 'axios'
+import BackpackNavbar from './backpackNavbar';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -55,34 +56,34 @@ export default function CourseVerticalTabs() {
       setCourses(res)
     }
     getCourseDetails()
-  },[])
+  })
   return (
     <Box
-      sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 224 }}
+      sx={{ flexGrow:1  , bgcolor: 'background.paper', display: 'flex', height: '100%', width:'100%' }}
     >
         <Tabs
             orientation="vertical"
             variant="scrollable"
             value={value}
             onChange={handleChange}
-            aria-label="Vertical tabs example"
-            sx={{ borderRight: 1, borderColor: 'divider' }}
+            sx={{ borderRight: 1, borderColor: 'divider' }} 
         >
-        {
-            courses.map((course,index) => (
-                <Tab label={course} {...a11yProps(index)} />
-            ))
+        { 
+          courses.map((course,index) => (
+              <Tab label={course}/>
+          ))
         }
-        </Tabs>
+      </Tabs>
+      <div style={{width:'100%'}}>
         {
-            courses.map((course,index) => (
-                <>
-                    <TabPanel value={value} index={index}>
-                        <Backpack courseName={course.split('-')[0]} courseId={course.split('-')[1]} />
-                    </TabPanel>
-                </>
-            ))
+          courses.map((course,index) => (
+            <TabPanel value={value} index={index} sx={{ width: '100%' }}>
+              <BackpackNavbar sx={{ width: '100%' }} courseDetails={ course } />
+              <Backpack courseDetails={ course } />
+                </TabPanel>
+          ))
         }
+        </div>
         </Box>
-  );
+  );  
 }

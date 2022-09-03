@@ -13,7 +13,7 @@ import { SuccessfulFeedback } from './components/Student/successfulFeedback';
 import { FeedbackGenerator } from './components/Common/feedbackGenerator';
 import {CourseBackpack} from './components/Common/Backpack/courseBackpack'
 ReactDOM.render(
-  <ThemeContextWrapper>
+  <ThemeContextWrapper style={{height:'100%'}}>
     <React.StrictMode>
       <BrowserRouter>
         <Routes>

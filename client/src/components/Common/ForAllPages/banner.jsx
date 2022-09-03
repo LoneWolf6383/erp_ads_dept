@@ -6,12 +6,12 @@ export const Banner = () => {
         <div style={{
             backgroundColor:'#0088ff'
         }}>
-            <img
-            src={require('../../../images/mepcoBanner.jpg')}
+            {/* <img
+            src={require('../../../images/mepco banner.png')}
             style={{
                 backgroundColor: '#0088ff',
-                width: '100%',
-            }}/>
+                width: '100%'
+            }}/> */}
         </div>
     )
 }

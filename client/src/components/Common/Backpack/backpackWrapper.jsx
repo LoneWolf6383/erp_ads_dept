@@ -10,7 +10,7 @@ export const BackpackWrapper = (props) => {
  
 
   return (
-    <div>
+    <div style={{height:'100%'}}>
       <Paper square sx={{ pb: "50px" }}>
         <Typography
           variant="h5"
@@ -32,6 +32,6 @@ export const BackpackWrapper = (props) => {
         </List>
       </Paper>
             <BottomAppBar />
-        </div>
+  </div>
   )
 }

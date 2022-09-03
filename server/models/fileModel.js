@@ -31,7 +31,6 @@ const FileSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-
 }, {collection: 'BackpackFiles.files'});
 
 const File = mongoose.model('File', FileSchema);
