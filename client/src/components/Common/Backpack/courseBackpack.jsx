@@ -6,7 +6,6 @@ export const CourseBackpack = () => {
   const [filename, setFilename] = useState("");
   const [file, setFile] = useState('')
   const [semester, setSemester] = useState('')
-  const [response, setResponse] = useState('')
   const [courseId, setCourseId] = useState('')
 
   const handleUpload = (e) => {
