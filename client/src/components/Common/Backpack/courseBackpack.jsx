@@ -5,7 +5,7 @@ import FileSaver from 'file-saver';
 export const CourseBackpack = () => {
   const [filename, setFilename] = useState("");
   const [file, setFile] = useState('')
-  const [semester, setSemester] = useState('')
+  const [batch, setBatch] = useState('')
   const [courseId, setCourseId] = useState('')
 
   const handleUpload = (e) => {
@@ -14,7 +14,7 @@ export const CourseBackpack = () => {
     formData.append("filename", filename);
     formData.append("file", file);
     formData.append("courseId",courseId)
-    formData.append("semester",semester)
+    formData.append("batch",batch)
     axios
       .post(process.env.REACT_APP_NODEJS_URL + "/file", formData)
       .then((res) => {
@@ -54,11 +54,11 @@ export const CourseBackpack = () => {
             </td>
           </tr>
           <tr class='tdVal' style={{ display: 'flex' }}>
-            <td style={{ flex: '1' }}><label>Semester:</label></td>
+            <td style={{ flex: '1' }}><label>Batch:</label></td>
             <td style={{ flex: '1' }}>
               <div class="">
                 <label for="" class="form-label">
-                  <input type="text" onChange={(e) => setSemester(e.target.value)} class="form-control" />
+                  <input type="text" onChange={(e) => setBatch(e.target.value)} class="form-control" />
                 </label>
               </div>
             </td>

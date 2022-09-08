@@ -15,6 +15,8 @@ const getResults = require('./utilities/getResults')
 const feedbackGenerator = require('./utilities/feedbackGenerator')
 const addCourseToBackpack = require('./routes/addCourseToBackpack')
 const fileUploadDownload = require('./routes/fileUploadDownload')
+const getCourseFiles = require('./utilities/getCourseFiles');
+
 
 const path = require('path');
 var bodyParser = require('body-parser');
@@ -45,7 +47,9 @@ app.use('/initiateReviews',initiateReviews)
 app.use('/getResults', getResults)
 app.use('/feedbackGenerator', feedbackGenerator)
 app.use('/addCourseToBackpack', addCourseToBackpack)
-app.use('/file',fileUploadDownload)
+app.use('/file', fileUploadDownload)
+app.use('/getCourseFiles', getCourseFiles)
+
 app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname,'./client/build','index.html'))
 })

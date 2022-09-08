@@ -15,10 +15,10 @@ export const Backpack = (props) => {
         <CardActionArea onClick={handleClick}>
           <CardContent align='right'>
             <Typography  variant="h6" component="div">
-              {props.courseDetails.split('-')[0]}
+              {props.filename}
             </Typography>
             <Typography variant="overline" noWrap={false} color="text.secondary">
-              {props.courseDetails.split('-')[1]}
+              {/* {props.courseDetails.split('-')[1]} */}
             </Typography>
           </CardContent>
         </CardActionArea>

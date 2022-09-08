@@ -4,7 +4,8 @@ const multer = require("multer");
 const {GridFsStorage} = require("multer-gridfs-storage");
 const mongoURI = "mongodb://localhost:27017/aids_feedback_form_db";
 const { File } = require('../models/fileModel')
-const { BackpackFile } = require()
+const { BackpackFile } = require('../models/backPackFile')
+const { CourseBackpack } = require('../models/courseBackpackModel')
 // connection
 const conn = mongoose.createConnection(mongoURI, {
   useNewUrlParser: true,
@@ -33,13 +34,16 @@ const storage = new GridFsStorage({
 const upload = multer({ storage : storage});
 
 //File Upload
-router.post('/', upload.any(), (req, res) => {
-  new File({
-    filename: req.body.filename,
-    semester: req.body.semester,
-    courseId: req.body.courseId,
-  }).save()
+router.post('/', upload.any(), async(req, res) => {
   res.send("File Uploaded Successfully");
+  const FileId = String((await File.findOne({ filename: req.body.filename }))._id)
+  await CourseBackpack.updateOne({ courseId: req.body.courseId, batch:req.body.batch },{$push:{"file_ids":FileId}})
+  // await new BackpackFile({
+  //   filename: req.body.filename,
+  //   fileId: FileId,
+    // semester: req.body.semester,
+    // courseId: req.body.courseId,
+  // }).save()
 });
 router.get('/', async (req, res) => {
   let contentType;

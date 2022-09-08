@@ -117,7 +117,7 @@ export function BottomAppBar() {
             <DeleteForeverIcon />
           </IconButton>
         </Toolbar>
-      </AppBar>
+      </AppBar> 
     </React.Fragment>
   );
 }

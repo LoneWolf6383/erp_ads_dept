@@ -34,29 +34,23 @@ TabPanel.propTypes = {
   value: PropTypes.number.isRequired,
 };
 
-function a11yProps(index) {
-  return {
-    id: `vertical-tab-${index}`,
-    'aria-controls': `vertical-tabpanel-${index}`,
-  };
-}
-
 export default function CourseVerticalTabs() {
   const [value, setValue] = React.useState(0);
-
+  const [courseDetails, setCourseDetails] = useState([])
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-
-  const [courses, setCourses] = useState([])
+  
   useEffect(() => {
-    const getCourseDetails = async () => {
+    const getCourseList = async () => {
       const data = {flag:'Backpack'}
       const { data: res } = await axios.post(process.env.REACT_APP_NODEJS_URL + '/getAllCourseDetails', data)
-      setCourses(res)
+      console.log(res)
+      setCourseDetails(res)
     }
-    getCourseDetails()
-  })
+    getCourseList()
+  }, [])
+  
   return (
     <Box
       sx={{ flexGrow:1  , bgcolor: 'background.paper', display: 'flex', height: '100%', width:'100%' }}
@@ -68,22 +62,22 @@ export default function CourseVerticalTabs() {
             onChange={handleChange}
             sx={{ borderRight: 1, borderColor: 'divider' }} 
         >
-        { 
-          courses.map((course,index) => (
-              <Tab label={course}/>
+        {
+          courseDetails.map(course => (
+            <Tab label={course.courseName+'-'+course.courseId}/>
           ))
         }
       </Tabs>
       <div style={{width:'100%'}}>
         {
-          courses.map((course,index) => (
+          courseDetails.map((course,index) => (
             <TabPanel value={value} index={index} sx={{ width: '100%' }}>
-              <BackpackNavbar sx={{ width: '100%' }} courseDetails={ course } />
-              <Backpack courseDetails={ course } />
-                </TabPanel>
+              <BackpackNavbar sx={{ width: '100%' }} courseDetails={ course.courseName } />
+              {course.file_ids.map(file=><Backpack filename={file} />)}
+            </TabPanel>
           ))
-        }
-        </div>
-        </Box>
+        } 
+      </div>
+    </Box>
   );  
 }
