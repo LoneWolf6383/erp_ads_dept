@@ -12,7 +12,7 @@ router.post('/', async (req, res) => {
                 courseDetails.push(docs[index].courseName+'-'+docs[index].courseId)
             return res.status(200).send(Array.from(new Set(courseDetails)))
         }else{//client/src/components/Common/Backpack/courseVerticalTabs.jsx
-            return res.status(200).send(Array.from(new Set(await CourseBackpack.find({},{_id:0,courseName:1,courseId:1,file_ids:1}))))
+            return res.status(200).send(Array.from(new Set(await CourseBackpack.find({},{_id:0,courseName:1,courseId:1,fileIds:1}))))
         }
     }catch (error) {
         console.log(error,'getAllCourseDetails')

@@ -43,40 +43,49 @@ export default function CourseVerticalTabs() {
   
   useEffect(() => {
     const getCourseList = async () => {
-      const data = {flag:'Backpack'}
-      const { data: res } = await axios.post(process.env.REACT_APP_NODEJS_URL + '/getAllCourseDetails', data)
-      console.log(res)
+      const { data: res } = await axios.post(process.env.REACT_APP_NODEJS_URL + '/getBackpackFiles') 
       setCourseDetails(res)
     }
-    getCourseList()
-  }, [])
+    getCourseList()   
+  },[])      
   
   return (
-    <Box
-      sx={{ flexGrow:1  , bgcolor: 'background.paper', display: 'flex', height: '100%', width:'100%' }}
+    <Box sx={{
+      flexGrow: 1,
+      bgcolor: 'background.paper',
+      display: 'flex',
+      height: '100%',
+      width: '100%'
+    }}
     >
-        <Tabs
-            orientation="vertical"
-            variant="scrollable"
-            value={value}
-            onChange={handleChange}
-            sx={{ borderRight: 1, borderColor: 'divider' }} 
-        >
-        {
-          courseDetails.map(course => (
-            <Tab label={course.courseName+'-'+course.courseId}/>
-          ))
-        }
-      </Tabs>
+      <Tabs
+        orientation="vertical"
+        variant="scrollable"
+        value={value}
+        onChange={handleChange}
+        sx={{ borderRight: 1, borderColor: 'divider' }} 
+      >
+      {
+        Object.entries(courseDetails).map(([key,]) => (
+          <Tab label={key}/>
+        )) 
+      }
+      </Tabs>  
       <div style={{width:'100%'}}>
         {
-          courseDetails.map((course,index) => (
-            <TabPanel value={value} index={index} sx={{ width: '100%' }}>
-              <BackpackNavbar sx={{ width: '100%' }} courseDetails={ course.courseName } />
-              {course.file_ids.map(file=><Backpack filename={file} />)}
-            </TabPanel>
+          Object.entries(courseDetails).map(([key, val], index) => (
+            <TabPanel value={value} index={index} sx={{ width: '100%'}}>
+              <BackpackNavbar sx={{ width: '100%' }} courseDetails={ key } />
+              <div style={{display:'flex',flexWrap:'wrap' }}>
+              {
+                val.map((file) => (
+                  <Backpack fileDetails={ file } />
+                  ))
+              }
+                </div>
+            </TabPanel>     
           ))
-        } 
+        }       
       </div>
     </Box>
   );  

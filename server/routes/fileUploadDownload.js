@@ -4,7 +4,6 @@ const multer = require("multer");
 const {GridFsStorage} = require("multer-gridfs-storage");
 const mongoURI = "mongodb://localhost:27017/aids_feedback_form_db";
 const { File } = require('../models/fileModel')
-const { BackpackFile } = require('../models/backPackFile')
 const { CourseBackpack } = require('../models/courseBackpackModel')
 // connection
 const conn = mongoose.createConnection(mongoURI, {
@@ -37,18 +36,21 @@ const upload = multer({ storage : storage});
 router.post('/', upload.any(), async(req, res) => {
   res.send("File Uploaded Successfully");
   const FileId = String((await File.findOne({ filename: req.body.filename }))._id)
-  await CourseBackpack.updateOne({ courseId: req.body.courseId, batch:req.body.batch },{$push:{"file_ids":FileId}})
-  // await new BackpackFile({
-  //   filename: req.body.filename,
-  //   fileId: FileId,
-    // semester: req.body.semester,
-    // courseId: req.body.courseId,
-  // }).save()
+  await CourseBackpack.updateOne(
+    {
+      courseId: req.body.courseId,
+      batch: req.body.batch
+    },
+    {
+      $push: { "fileIds": FileId }
+    })
 });
 router.get('/', async (req, res) => {
   let contentType;
-  let filename = req.query.file.toString();
-  File.find({ filename: filename }).then((file) => {
+  let fileId = req.query.fileId.toString();
+  let filename
+  await File.find({ _id: fileId }).then((file) => {
+    filename = file[0].filename
     contentType = file[0].contentType;
     //setting response header
     res.set({
