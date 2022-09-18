@@ -19,11 +19,13 @@ router.post('/', async (req, res) => {
                 }
             }
         }
-        if (await Review.findOne({
+        const rev = await Review.find({
             username: req.body.username,
             academicYear: req.body.academicYear,
             semester: req.body.semester
-        })) {
+        })
+        if (rev.length>0) {
+            console.log(rev.length)
             console.log("if");
         } else {
             console.log("else")

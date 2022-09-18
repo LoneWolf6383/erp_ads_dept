@@ -99,7 +99,7 @@ export const DynTabs = () => {
   const handleSubmit = () => {
     // eslint-disable-next-line no-restricted-globals
     if (confirm("Are you sure you want to submit the feedback?")===true)
-      window.location.replace("http://localhost:3000/studentDashboard/feedback/success")
+      window.location.replace(process.env.REACT_APP_NODEJS_URL+"/studentDashboard/feedback/success")
   }
   return (
     <>
@@ -120,7 +120,7 @@ export const DynTabs = () => {
         <p>Once you have completed All the courses, Click this Button to Finalize</p>
       </div>
       <div className="d-grid" style={{ width: '10%', float: 'right', margin: '0px 20px 20px 0px'}}>
-        <Button variant="danger" onClick={handleSubmit} style={{}}>Submit</Button>
+        <Button variant="danger" onClick={handleSubmit}>Submit</Button>
       </div>
     </div>
     </>
