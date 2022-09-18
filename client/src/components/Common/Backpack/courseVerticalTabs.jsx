@@ -65,23 +65,23 @@ export default function CourseVerticalTabs() {
         onChange={handleChange}
         sx={{ borderRight: 1, borderColor: 'divider' }} 
       >
-      {
-        Object.entries(courseDetails).map(([key,]) => (
-          <Tab label={key}/>
-        )) 
-      }
+        {
+          Object.entries(courseDetails).map(([key,]) => (
+            <Tab label={key}/>
+          )) 
+        }
       </Tabs>  
       <div style={{width:'100%'}}>
         {
           Object.entries(courseDetails).map(([key, val], index) => (
             <TabPanel value={value} index={index} sx={{ width: '100%'}}>
               <BackpackNavbar sx={{ width: '100%' }} courseDetails={ key } />
-              <div style={{display:'flex',flexWrap:'wrap' }}>
-              {
-                val.map((file) => (
-                  <Backpack fileDetails={ file } />
-                  ))
-              }
+                <div style={{display:'flex',flexWrap:'wrap' }}>
+                  {
+                    val.map((file) => (
+                      <Backpack fileDetails={ file } />
+                      ))
+                  }
                 </div>
             </TabPanel>     
           ))

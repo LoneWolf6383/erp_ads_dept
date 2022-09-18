@@ -34,17 +34,18 @@ const upload = multer({ storage : storage});
 
 //File Upload
 router.post('/', upload.any(), async(req, res) => {
-  res.send("File Uploaded Successfully");
   const FileId = String((await File.findOne({ filename: req.body.filename }))._id)
   await CourseBackpack.updateOne(
     {
       courseId: req.body.courseId,
-      batch: req.body.batch
+      batch: req.body.batch,
+      fileIds: {$nin:FileId}
     },
     {
       $push: { "fileIds": FileId }
     })
-});
+    res.send("File Uploaded Successfully");
+  });
 router.get('/', async (req, res) => {
   let contentType;
   let fileId = req.query.fileId.toString();
