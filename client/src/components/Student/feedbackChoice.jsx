@@ -14,7 +14,7 @@ export const FeedbackChoice = () => {
         }
         const { data: res } = await axios.post(process.env.REACT_APP_NODEJS_URL+'/initiateReviews', data)
         console.log(res);
-        window.location.replace(process.env.REACT_APP_NODEJS_URL+"/studentDashboard/feedback?" + academicYear + "+" + semester)
+        window.location.replace(process.env.REACT_APP_URL+"/studentDashboard/feedback?" + academicYear + "+" + semester)
     }
   return (
     <div style={{backgroundColor:'',width:'100%',height:'100%'}}>

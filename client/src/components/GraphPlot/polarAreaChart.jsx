@@ -13,13 +13,15 @@ export const PolarAreaChart = (props) => {
     const [ratings, setRatings] = useState({})
     useEffect(() => {
         const getRatings = async () => {
-            const data = { 'username': window.sessionStorage.getItem('username'), 'courseName': props.course }
+            const data = {
+                username: window.sessionStorage.getItem('username'),
+                courseName: props.course
+            }
             const res = await axios.post(process.env.REACT_APP_NODEJS_URL+'/getRatings', data)
-            // console.log(res.data)
             setRatings(res.data)
         }
         getRatings()
-    }, [props.course, ratings])
+    }, [])
     const d = {
         labels: ['Q1','Q2','Q3','Q4','Q5'],
         datasets: [

@@ -12,15 +12,16 @@ export const DynTabs = () => {
   const [panels, setPanels] = useState([])
   const [tabIndex, setTabIndex] = useState(1)
   const [content, setContent] = useState([])
-  
+  const [update, setUpdate] = useState(0)
   const [reviewed, setReviewed] = useState(false)
   async function isReviewed(courseName) {
     try {
       var data = {
-        'username': window.sessionStorage.getItem('username'),
-        'courseName': courseName
+        username: window.sessionStorage.getItem('username'),
+        courseName: courseName
       }
-        const { data: res } = await axios.post(process.env.REACT_APP_NODEJS_URL+'/isReviewed', data)
+      const { data: res } = await axios.post(process.env.REACT_APP_NODEJS_URL + '/isReviewed', data)
+      console.log(typeof(res))
         if (res === true) {
           setReviewed(true)
         } else {
@@ -54,7 +55,7 @@ export const DynTabs = () => {
                       <tr style={{ display: 'flex' }}>
                         <td style={{ flex: '1' }}><li>{q}</li></td>
                         <td style={{ flex: '1' }}>
-                          <StarRating label={content[key][0] + "+" + q} reviewed={reviewed} /> 
+                          <StarRating label={content[key][0] + "+" + q} reviewed={reviewed} onChange={val =>  setUpdate(val) } /> 
                         </td>
                       </tr> 
                     )}
@@ -99,7 +100,7 @@ export const DynTabs = () => {
   const handleSubmit = () => {
     // eslint-disable-next-line no-restricted-globals
     if (confirm("Are you sure you want to submit the feedback?")===true)
-      window.location.replace(process.env.REACT_APP_NODEJS_URL+"/studentDashboard/feedback/success")
+      window.location.replace(process.env.REACT_APP_URL+"/studentDashboard/feedback/success")
   }
   return (
     <>

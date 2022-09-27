@@ -39,12 +39,12 @@ export const LogInPage = () => {
             if (res.data ==='/studentDashboard'){
                 document.getElementById('password_ip').style.borderColor='white'
                 window.sessionStorage.setItem('username',username)  
-                window.location.replace(process.env.REACT_APP_NODEJS_URL+'/studentDashboard')
+                window.location.replace(process.env.REACT_APP_URL+'/studentDashboard')
             }
             if (res.data ==='/facultyDashboard'){
                 document.getElementById('password_ip').style.borderColor='white'
                 window.sessionStorage.setItem('username',username)  
-                window.location.replace(process.env.REACT_APP_NODEJS_URL+'/facultyDashboard')
+                window.location.replace(process.env.REACT_APP_URL+'/facultyDashboard')
             }
         } catch (error) {
             if (error.response && error.response.status >= 400 && error.response.status <= 500) 

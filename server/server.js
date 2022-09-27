@@ -16,6 +16,7 @@ const feedbackGenerator = require('./utilities/feedbackGenerator')
 const addCourseToBackpack = require('./routes/addCourseToBackpack')
 const fileUploadDownload = require('./routes/fileUploadDownload')
 const getBackpackFiles  = require('./utilities/getBackpackFiles')
+const submitReviewRoutes = require('./routes/submitReview')
 const path = require('path');
 var bodyParser = require('body-parser');
 const { dirname } = require('path')
@@ -35,7 +36,8 @@ app.use(express.json())
 // app.use(express.static(path.resolve(__dirname,'./client/build')))
 
 app.use('/getBackpackFiles',getBackpackFiles)
-app.use('/feedback/signin',authRoutes)
+app.use('/feedback/signin', authRoutes)
+app.use('/feedback/review',submitReviewRoutes)
 app.use('/addFeedBack', addFeedBackRoutes)
 app.use('/addCourse', addCourseRoutes)
 app.use('/getAllCourseDetails', getAllCourseDetails)
