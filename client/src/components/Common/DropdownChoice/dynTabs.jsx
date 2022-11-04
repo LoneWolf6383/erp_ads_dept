@@ -55,7 +55,7 @@ export const DynTabs = () => {
                       <tr style={{ display: 'flex' }}>
                         <td style={{ flex: '1' }}><li>{q}</li></td>
                         <td style={{ flex: '1' }}>
-                          <StarRating label={content[key][0] + "+" + q} reviewed={reviewed} onChange={val =>  setUpdate(val) } /> 
+                          <StarRating label={content[key][0] + "+" + q} reviewed={reviewed} /> 
                         </td>
                       </tr> 
                     )}
@@ -66,7 +66,7 @@ export const DynTabs = () => {
               </table>
             </div>
             <div style={{display:'inline-block',width:'55%'}}>
-              <PolarAreaChart course={content[key][0]} />
+              <PolarAreaChart course={content[key][0]} update={update} />
               If the above Polar graph contains five readings, then you can move on to the next course.
             </div>
         </div>    

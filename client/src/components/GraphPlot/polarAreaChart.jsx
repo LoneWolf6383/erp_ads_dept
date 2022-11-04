@@ -9,6 +9,7 @@ import {
     Legend,
   } from 'chart.js';
 ChartJS.register(RadialLinearScale, ArcElement, Tooltip, Legend);
+
 export const PolarAreaChart = (props) => {
     const [ratings, setRatings] = useState({})
     useEffect(() => {
@@ -21,7 +22,7 @@ export const PolarAreaChart = (props) => {
             setRatings(res.data)
         }
         getRatings()
-    }, [])
+    },[])
     const d = {
         labels: ['Q1','Q2','Q3','Q4','Q5'],
         datasets: [

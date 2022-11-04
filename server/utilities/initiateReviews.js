@@ -24,11 +24,7 @@ router.post('/', async (req, res) => {
             academicYear: req.body.academicYear,
             semester: req.body.semester
         })
-        if (rev.length>0) {
-            console.log(rev.length)
-            console.log("if");
-        } else {
-            console.log("else")
+        if (rev.length<1){
             await new Review({
                 username: req.body.username,
                 academicYear: req.body.academicYear,

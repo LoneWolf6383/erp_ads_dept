@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -11,6 +11,18 @@ export default function BackpackNavbar(props) {
   const [file, setFile] = useState('')
   const [batch,] = useState('2020-24')
   const [courseId, setCourseId] = useState('')
+  const [isStudent, setIsStudent] = useState(false)
+  useEffect(() => {
+    const verifyRole = () => {
+      var username = window.sessionStorage.getItem('username')
+      var fileUpload = document.getElementById('fileUpload')
+      if (username.includes('BAD')) {
+        fileUpload.hidden=true
+      }
+    }
+    verifyRole()
+  }, [])
+  
   const handleUpload = (e) => {
     e.preventDefault();
     const formData = new FormData();
@@ -32,6 +44,7 @@ export default function BackpackNavbar(props) {
             {props.courseDetails}
           </Typography>
           <input
+              id='fileUpload'
               multiple
               type="file"
               onChange={(e) => {
