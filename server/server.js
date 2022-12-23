@@ -17,10 +17,7 @@ const addCourseToBackpack = require('./routes/addCourseToBackpack')
 const fileUploadDownload = require('./routes/fileUploadDownload')
 const getBackpackFiles  = require('./utilities/getBackpackFiles')
 const submitReviewRoutes = require('./routes/submitReview')
-const path = require('path');
 var bodyParser = require('body-parser');
-const { dirname } = require('path')
-const { fileURLToPath } = require('url')
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -31,9 +28,6 @@ app.use(helmet({
     contentSecurityPolicy:false
 }))
 app.use(express.json())
-
-// let __dirname = dirname(fileURLToPath(import.meta.url))
-// app.use(express.static(path.resolve(__dirname,'./client/build')))
 
 app.use('/getBackpackFiles',getBackpackFiles)
 app.use('/feedback/signin', authRoutes)
@@ -49,10 +43,6 @@ app.use('/getResults', getResults)
 app.use('/feedbackGenerator', feedbackGenerator)
 app.use('/addCourseToBackpack', addCourseToBackpack)
 app.use('/file', fileUploadDownload)
-
-app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname,'./client/build','index.html'))
-})
 
 const port = process.env.PORT || 5000
 app.listen(port, () => {
