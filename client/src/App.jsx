@@ -13,7 +13,7 @@ import {LogInPage} from './pages/logInPage'
 // import {PolarAreaChart} from './components/GraphPlot/polarAreaChart'
 // import { StudentBackpack } from './components/studentBackpack'
 function App() { 
-  return (
+  return ( 
     <div style={{height:'100%'}}>
       <LogInPage/>
       {/* <FacultyDashboard /> */}

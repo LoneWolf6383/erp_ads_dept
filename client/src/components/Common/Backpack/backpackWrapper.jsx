@@ -8,7 +8,6 @@ import CourseVerticalTabs from './courseVerticalTabs';
 
 export const BackpackWrapper = (props) => {
  
-
   return (
     <div style={{height:'100%'}}>
       <Paper square sx={{ pb: "50px" }}>

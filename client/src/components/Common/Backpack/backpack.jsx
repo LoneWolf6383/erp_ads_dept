@@ -1,4 +1,3 @@
-
 import React,{useState,useEffect} from 'react'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -33,4 +32,3 @@ export const Backpack = (props) => {
     </div>    
   )
 }   
-                           

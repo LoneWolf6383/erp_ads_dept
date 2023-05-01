@@ -6,6 +6,7 @@ router.post('/', async (req, res) => {
         var user
         var isStudent = false
         var isFaculty = false
+        console.log(req.body);
         if (await User.findOne({ username: req.body.username })) {
             user = await User.findOne({ username: req.body.username })
             if(user.userRole==='student')
