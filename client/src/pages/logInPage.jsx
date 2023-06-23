@@ -6,8 +6,8 @@ import ThumbDownOffAltIcon from '@mui/icons-material/ThumbDownOffAlt';
 import ThumbUpOffAltIcon from '@mui/icons-material/ThumbUpOffAlt';
 
 export const LogInPage = () => {
-    const [username, setUserName] = useState('')
-    const [password, setPassword] = useState('')
+    const [username, setUserName] = useState('20BAD040')
+    const [password, setPassword] = useState('Rag040')
     const [isVerified, setisVerified] = useState()
     const [, setError] = useState('')
     async function handleSignIn(event) {

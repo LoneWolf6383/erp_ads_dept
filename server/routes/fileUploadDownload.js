@@ -1,8 +1,10 @@
 const router = require('express').Router()
 const mongoose = require("mongoose");
 const multer = require("multer");
-const {GridFsStorage} = require("multer-gridfs-storage");
-const mongoURI = "mongodb://localhost:27017/aids_feedback_form_db";
+const { GridFsStorage } = require("multer-gridfs-storage");
+require('dotenv').config()
+// const mongoURI = "mongodb://localhost:27017/aids_feedback_form_db";
+const mongoURI =  process.env.REACT_APP_MONGODB_URL
 const { File } = require('../models/fileModel')
 const { CourseBackpack } = require('../models/courseBackpackModel')
 // connection
@@ -20,7 +22,7 @@ conn.once('open', async () => {
 // Create storage engine
 const storage = new GridFsStorage({
   url: mongoURI,
-  file: (req, file) => {
+  file: (req, file) => { 
     return new Promise((resolve) => {
         const fileInfo = {
           filename: req.body.filename,

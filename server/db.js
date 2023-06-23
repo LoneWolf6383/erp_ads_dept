@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 // const { MongoClient } = require("mongodb");
-const mongoUrl = "mongodb://127.0.0.1:27017/aids_feedback_form_db";
-
+require('dotenv').config()
+// const mongoUrl = "mongodb://127.0.1:27017/aids_feedback_form_db";
+const mongoUrl = process.env.REACT_APP_MONGODB_URL
 module.exports = () => {
     try {
         // const client = new MongoClient(mongoUrl);

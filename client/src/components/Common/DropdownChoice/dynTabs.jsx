@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import axios from 'axios'
 import React, { useState, useEffect ,useCallback} from 'react'
 import { StarRating } from '../../Student/starRating'
@@ -10,9 +9,9 @@ export const DynTabs = () => {
   const [selectedTab, setSelectedTab] = useState('0')
   const [tabs, setTabs] = useState([])
   const [panels, setPanels] = useState([])
-  const [tabIndex, setTabIndex] = useState(1)
+  const [, setTabIndex] = useState(1)
   const [content, setContent] = useState([])
-  const [update, setUpdate] = useState(0)
+  const [update,] = useState(0)
   const [reviewed, setReviewed] = useState(false)
   async function isReviewed(courseName) {
     try {
@@ -75,7 +74,7 @@ export const DynTabs = () => {
     }
     setTabs(tabs_array)
     setPanels(panels_array)
-  },[content, reviewed])
+  },[content, reviewed, update])
   
   useEffect(() => {
     generateTabs()

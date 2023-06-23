@@ -11,7 +11,6 @@ export default function BackpackNavbar(props) {
   const [file, setFile] = useState('')
   const [batch,] = useState('2020-24')
   const [courseId, setCourseId] = useState('')
-  const [isStudent, setIsStudent] = useState(false)
   useEffect(() => {
     const verifyRole = () => {
       var username = window.sessionStorage.getItem('username')

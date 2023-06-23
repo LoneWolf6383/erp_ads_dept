@@ -22,7 +22,7 @@ export const PolarAreaChart = (props) => {
             setRatings(res.data)
         }
         getRatings()
-    },[])
+    },[props.course])
     const d = {
         labels: ['Q1','Q2','Q3','Q4','Q5'],
         datasets: [
